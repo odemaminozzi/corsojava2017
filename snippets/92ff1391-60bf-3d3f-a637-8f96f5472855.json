@@ -1,0 +1,8 @@
+{
+  "uuid": "92ff1391-60bf-3d3f-a637-8f96f5472855",
+  "name": "protected_method",
+  "description": "protected method",
+  "keywords": [],
+  "tags": [],
+  "code": "protected ${return_type} ${name}(${}) {\n\t${cursor}\n}"
+}

@@ -1,0 +1,10 @@
+## by default, ignore every file
+*
+
+## but include some standard files:
+!snippets	
+!META-INF	
+!src
+!.gitignore
+!.classpath
+!.project

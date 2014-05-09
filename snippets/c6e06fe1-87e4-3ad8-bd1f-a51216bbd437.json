@@ -1,0 +1,8 @@
+{
+  "uuid": "c6e06fe1-87e4-3ad8-bd1f-a51216bbd437",
+  "name": "SimpleDateFormat-1",
+  "description": "new SimpleDateFormat parse format",
+  "keywords": [],
+  "tags": [],
+  "code": "${simpledateformatType:newType(java.text.SimpleDateFormat)} ${simpledateformat:newName(java.text.SimpleDateFormat)} \u003d new ${simpledateformatType}(${string:var(java.lang.String)});${parseType:newType(java.util.Date)} ${parse:newName(java.util.Date)} \u003d ${simpledateformat}.parse(${string1:var(java.lang.String)});${formatType:newType(java.lang.String)} ${format:newName(java.lang.String)} \u003d ${simpledateformat}.format(${date:var(java.util.Date)});"
+}

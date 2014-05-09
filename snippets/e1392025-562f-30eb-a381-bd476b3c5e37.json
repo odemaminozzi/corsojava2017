@@ -1,0 +1,8 @@
+{
+  "uuid": "e1392025-562f-30eb-a381-bd476b3c5e37",
+  "name": "private_method",
+  "description": "private method",
+  "keywords": [],
+  "tags": [],
+  "code": "private ${return_type} ${name}(${}) {\n\t${cursor}\n}"
+}

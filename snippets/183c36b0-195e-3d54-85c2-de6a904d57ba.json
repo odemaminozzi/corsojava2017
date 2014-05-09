@@ -1,0 +1,8 @@
+{
+  "uuid": "183c36b0-195e-3d54-85c2-de6a904d57ba",
+  "name": "if",
+  "description": "if statement",
+  "keywords": [],
+  "tags": [],
+  "code": "if (${condition:var(boolean)}) {\n\t${line_selection}${cursor}\n}"
+}

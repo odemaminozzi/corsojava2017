@@ -1,0 +1,8 @@
+{
+  "uuid": "81031660-238e-3687-9232-a366dad45a4c",
+  "name": "File-2",
+  "description": "new File createNewFile deleteOnExit",
+  "keywords": [],
+  "tags": [],
+  "code": "${fileType:newType(java.io.File)} ${file:newName(java.io.File)} \u003d new ${fileType}(${file1:var(java.io.File)}, ${string:var(java.lang.String)});\n// ${todo} Adjust condition\nif (${file}.createNewFile()) { \n// Do something\n}${file}.deleteOnExit();"
+}

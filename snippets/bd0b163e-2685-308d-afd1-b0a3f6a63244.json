@@ -1,0 +1,8 @@
+{
+  "uuid": "bd0b163e-2685-308d-afd1-b0a3f6a63244",
+  "name": "while",
+  "description": "while loop with condition",
+  "keywords": [],
+  "tags": [],
+  "code": "while (${condition:var(boolean)}) {\n\t${line_selection}${cursor}\n}"
+}

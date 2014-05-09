@@ -1,0 +1,8 @@
+{
+  "uuid": "9eab9bd7-8cff-3744-8a4e-2f4a943dc252",
+  "name": "systrace",
+  "description": "print current method to standard out",
+  "keywords": [],
+  "tags": [],
+  "code": "System.out.println(\"${enclosing_type}.${enclosing_method}()\");"
+}

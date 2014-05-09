@@ -1,0 +1,8 @@
+{
+  "uuid": "9f1f2c3d-15d1-3067-ac9c-9c8c1db0d10b",
+  "name": "sysout",
+  "description": "print to standard out",
+  "keywords": [],
+  "tags": [],
+  "code": "System.out.println(${word_selection}${});${cursor}"
+}
