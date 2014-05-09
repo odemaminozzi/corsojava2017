@@ -3,6 +3,8 @@
   "name": "main",
   "description": "main method",
   "keywords": [],
-  "tags": [],
+  "tags": [
+    "java"
+  ],
   "code": "public static void main(String[] args) {\n\t${cursor}\n}"
 }

@@ -2,7 +2,14 @@
   "uuid": "cd12d9c8-f05c-35e3-8ce8-6211933c16cc",
   "name": "execute",
   "description": "execute a runnable in the UI thread",
-  "keywords": [],
-  "tags": [],
+  "keywords": [
+    "display",
+    "asynchronous"
+  ],
+  "tags": [
+    "eclipse",
+    "swt",
+    "widget"
+  ],
   "code": "${display:var(org.eclipse.swt.widgets.Display)}.${kind:link(syncExec, asyncExec)}(new ${runnable:newType(java.lang.Runnable)}(){\n\tpublic void run(){\n\t\t${cursor}\n\t}\n});"
 }

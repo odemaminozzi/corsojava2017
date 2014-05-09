@@ -3,6 +3,10 @@
   "name": "GridData",
   "description": "new GridData for a Control",
   "keywords": [],
-  "tags": [],
+  "tags": [
+    "eclipse",
+    "swt",
+    "layout"
+  ],
   "code": "${gridData:newType(org.eclipse.swt.layout.GridData)} ${layoutData:newName(org.eclipse.swt.layout.GridData)} \u003d new ${gridData}(SWT.${horizontal:link(FILL, BEGINNING, CENTER, END)}, SWT.${vertical:link(FILL, TOP, CENTER, BOTTOM)}, ${hex:link(true, false)}, ${vex:link(false, true)});\n${layoutData}.widthHint\u003d ${width:link(SWT.DEFAULT)};\n${layoutData}.heightHint\u003d ${height:link(SWT.DEFAULT)};\n${parent:var(org.eclipse.swt.widgets.Control)}.setLayoutData(${layoutData});\n${imp:import(org.eclipse.swt.SWT)}${cursor}"
 }

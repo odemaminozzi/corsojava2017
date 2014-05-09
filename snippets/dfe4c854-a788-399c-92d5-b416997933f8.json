@@ -3,6 +3,8 @@
   "name": "syserr",
   "description": "print to standard error",
   "keywords": [],
-  "tags": [],
+  "tags": [
+    "java"
+  ],
   "code": "System.err.println(${word_selection}${});${cursor}"
 }

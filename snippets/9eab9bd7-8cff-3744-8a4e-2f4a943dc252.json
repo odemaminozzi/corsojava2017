@@ -3,6 +3,8 @@
   "name": "systrace",
   "description": "print current method to standard out",
   "keywords": [],
-  "tags": [],
+  "tags": [
+    "java"
+  ],
   "code": "System.out.println(\"${enclosing_type}.${enclosing_method}()\");"
 }

@@ -3,6 +3,10 @@
   "name": "TreeColumn",
   "description": "new TreeColumn for a Tree ",
   "keywords": [],
-  "tags": [],
+  "tags": [
+    "eclipse",
+    "swt",
+    "widget"
+  ],
   "code": "${type:newType(org.eclipse.swt.widgets.TreeColumn)} ${column:newName(org.eclipse.swt.widgets.TreeColumn)}\u003d new ${type}(${parent:var(org.eclipse.swt.widgets.Tree)}, ${style:link(SWT.LEAD, SWT.CENTER, SWT.TRAIL)});\n${column}.setText(${word_selection}${});\n${imp:import(org.eclipse.swt.SWT)}${cursor}"
 }

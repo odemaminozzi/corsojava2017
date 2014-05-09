@@ -3,6 +3,8 @@
   "name": "ifelse",
   "description": "if else statement",
   "keywords": [],
-  "tags": [],
+  "tags": [
+    "java"
+  ],
   "code": "if (${condition:var(boolean)}) {\n\t${cursor}\n} else {\n\t\n}"
 }

@@ -3,6 +3,8 @@
   "name": "foreach",
   "description": "iterate over an array or Iterable",
   "keywords": [],
-  "tags": [],
+  "tags": [
+    "java"
+  ],
   "code": "for (${iterable_type} ${iterable_element} : ${iterable}) {\n\t${cursor}\n}"
 }

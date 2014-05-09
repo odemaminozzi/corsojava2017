@@ -3,6 +3,8 @@
   "name": "cast",
   "description": "dynamic cast",
   "keywords": [],
-  "tags": [],
+  "tags": [
+    "java"
+  ],
   "code": "${type} ${new_name} \u003d (${type}) ${name};"
 }

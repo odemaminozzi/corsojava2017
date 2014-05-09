@@ -3,6 +3,8 @@
   "name": "false",
   "description": "\u003ccode\u003efalse\u003c/code\u003e",
   "keywords": [],
-  "tags": [],
+  "tags": [
+    "javadoc"
+  ],
   "code": "\u003ccode\u003efalse\u003c/code\u003e"
 }

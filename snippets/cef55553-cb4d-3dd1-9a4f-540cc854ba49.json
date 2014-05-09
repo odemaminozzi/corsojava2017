@@ -2,7 +2,11 @@
   "uuid": "cef55553-cb4d-3dd1-9a4f-540cc854ba49",
   "name": "synchronized",
   "description": "synchronized block",
-  "keywords": [],
-  "tags": [],
+  "keywords": [
+    "thread"
+  ],
+  "tags": [
+    "java"
+  ],
   "code": "synchronized (${mutex:var}) {\n\t${line_selection}\n}"
 }

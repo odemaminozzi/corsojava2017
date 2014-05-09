@@ -2,7 +2,12 @@
   "uuid": "995816cb-6911-3dda-ba42-2d923f736b84",
   "name": "catch",
   "description": "catch block",
-  "keywords": [],
-  "tags": [],
+  "keywords": [
+    "exception",
+    "throwable"
+  ],
+  "tags": [
+    "java"
+  ],
   "code": "catch (${Exception} ${exception_variable_name}) {\n\t${cursor}// ${todo}: handle exception\n}"
 }

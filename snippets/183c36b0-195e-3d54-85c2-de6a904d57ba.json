@@ -3,6 +3,8 @@
   "name": "if",
   "description": "if statement",
   "keywords": [],
-  "tags": [],
+  "tags": [
+    "java"
+  ],
   "code": "if (${condition:var(boolean)}) {\n\t${line_selection}${cursor}\n}"
 }

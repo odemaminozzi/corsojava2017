@@ -3,6 +3,8 @@
   "name": "elseif",
   "description": "else if block",
   "keywords": [],
-  "tags": [],
+  "tags": [
+    "java"
+  ],
   "code": "else if (${condition:var(boolean)}) {\n\t${cursor}\n}"
 }

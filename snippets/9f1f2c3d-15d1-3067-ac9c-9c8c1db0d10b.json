@@ -3,6 +3,8 @@
   "name": "sysout",
   "description": "print to standard out",
   "keywords": [],
-  "tags": [],
+  "tags": [
+    "java"
+  ],
   "code": "System.out.println(${word_selection}${});${cursor}"
 }

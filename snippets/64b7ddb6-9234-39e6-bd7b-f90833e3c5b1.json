@@ -3,6 +3,8 @@
   "name": "public_method",
   "description": "public method",
   "keywords": [],
-  "tags": [],
+  "tags": [
+    "java"
+  ],
   "code": "public ${return_type} ${name}(${}) {\n\t${cursor}\n}"
 }

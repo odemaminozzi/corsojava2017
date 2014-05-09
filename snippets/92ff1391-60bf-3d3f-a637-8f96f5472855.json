@@ -3,6 +3,8 @@
   "name": "protected_method",
   "description": "protected method",
   "keywords": [],
-  "tags": [],
+  "tags": [
+    "java"
+  ],
   "code": "protected ${return_type} ${name}(${}) {\n\t${cursor}\n}"
 }

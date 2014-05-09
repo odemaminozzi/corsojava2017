@@ -3,6 +3,8 @@
   "name": "switch",
   "description": "switch case statement",
   "keywords": [],
-  "tags": [],
+  "tags": [
+    "java"
+  ],
   "code": "switch (${key}) {\n\tcase ${value}:\n\t\t${cursor}\n\t\tbreak;\n\n\tdefault:\n\t\tbreak;\n}"
 }

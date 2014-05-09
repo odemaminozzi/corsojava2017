@@ -1,8 +1,0 @@
-{
-  "uuid": "920e6a4d-3ecf-3422-8029-19a5377028c6",
-  "name": "StringTokenizer-8",
-  "description": "new StringTokenizer hasMoreTokens nextToken",
-  "keywords": [],
-  "tags": [],
-  "code": "${stringtokenizerType:newType(java.util.StringTokenizer)} ${stringtokenizer:newName(java.util.StringTokenizer)} \u003d new ${stringtokenizerType}(${string:var(java.lang.String)}, ${string1:var(java.lang.String)});\n// ${todo} Adjust condition\nif (${stringtokenizer}.hasMoreTokens()) { \n// Do something\n}${nexttokenType:newType(java.lang.String)} ${nexttoken:newName(java.lang.String)} \u003d ${stringtokenizer}.nextToken();"
-}

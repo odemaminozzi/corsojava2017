@@ -3,6 +3,8 @@
   "name": "new",
   "description": "create new object",
   "keywords": [],
-  "tags": [],
+  "tags": [
+    "java"
+  ],
   "code": "${type} ${name} \u003d new ${type}(${arguments});"
 }

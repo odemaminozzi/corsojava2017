@@ -3,6 +3,8 @@
   "name": "test3",
   "description": "test method (JUnit 3)",
   "keywords": [],
-  "tags": [],
+  "tags": [
+    "test"
+  ],
   "code": "public void test${name}() throws Exception {\n\t${cursor}\n}"
 }

@@ -3,6 +3,8 @@
   "name": "else",
   "description": "else block",
   "keywords": [],
-  "tags": [],
+  "tags": [
+    "java"
+  ],
   "code": "else {\n\t${cursor}\n}"
 }

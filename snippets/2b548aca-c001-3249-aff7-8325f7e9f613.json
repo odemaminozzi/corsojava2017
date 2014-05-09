@@ -3,6 +3,8 @@
   "name": "private_static_method",
   "description": "private static method",
   "keywords": [],
-  "tags": [],
+  "tags": [
+    "java"
+  ],
   "code": "private static ${return_type} ${name}(${}) {\n\t${cursor}\n}"
 }

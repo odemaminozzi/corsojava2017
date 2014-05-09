@@ -3,6 +3,8 @@
   "name": "null",
   "description": "\u003ccode\u003enull\u003c/code\u003e",
   "keywords": [],
-  "tags": [],
+  "tags": [
+    "javadoc"
+  ],
   "code": "\u003ccode\u003enull\u003c/code\u003e"
 }

@@ -3,6 +3,8 @@
   "name": "while",
   "description": "while loop with condition",
   "keywords": [],
-  "tags": [],
+  "tags": [
+    "java"
+  ],
   "code": "while (${condition:var(boolean)}) {\n\t${line_selection}${cursor}\n}"
 }
