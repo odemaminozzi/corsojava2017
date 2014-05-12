@@ -3,6 +3,10 @@
   "name": "TableColumn",
   "description": "new TableColumn for a Table ",
   "keywords": [],
-  "tags": [],
+  "tags": [
+    "eclipse",
+    "swt",
+    "widgets"
+  ],
   "code": "${type:newType(org.eclipse.swt.widgets.TableColumn)} ${column:newName(org.eclipse.swt.widgets.TableColumn)}\u003d new ${type}(${parent:var(org.eclipse.swt.widgets.Table)}, ${style:link(SWT.LEAD, SWT.CENTER, SWT.TRAIL)});\n${column}.setText(${word_selection}${});\n${imp:import(org.eclipse.swt.SWT)}${cursor}"
 }
