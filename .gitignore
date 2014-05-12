@@ -2,9 +2,6 @@
 *
 
 ## but include some standard files:
-!snippets	
-!META-INF	
-!src
+!snippets/
+!snippets/*
 !.gitignore
-!.classpath
-!.project
