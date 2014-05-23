@@ -1,0 +1,10 @@
+{
+  "uuid": "197bba12-ebc3-484f-8ba7-1f918e993436",
+  "name": "SecurityManager",
+  "description": "check permission",
+  "keywords": [],
+  "tags": [
+    "security"
+  ],
+  "code": "${securityManagerType:newType(java.lang.SecurityManager)} ${securityManager:newName(java.lang.SecurityManager)} \u003d System.getSecurityManager();\nif (${securityManager} !\u003d null) {\n\t${securityManager}.check${cursor}\n}"
+}
