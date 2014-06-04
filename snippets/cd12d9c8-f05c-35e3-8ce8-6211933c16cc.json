@@ -4,12 +4,13 @@
   "description": "execute a runnable in the UI thread",
   "keywords": [
     "display",
-    "asynchronous"
+    "asynchronous",
+    "synchronous"
   ],
   "tags": [
     "eclipse",
     "swt",
-    "widget"
+    "concurrency"
   ],
-  "code": "${display:var(org.eclipse.swt.widgets.Display)}.${kind:link(syncExec, asyncExec)}(new ${runnable:newType(java.lang.Runnable)}(){\n\tpublic void run(){\n\t\t${cursor}\n\t}\n});"
+  "code": "${display:var(org.eclipse.swt.widgets.Display)}.${kind:link(syncExec, asyncExec)}(new ${runnable:newType(java.lang.Runnable)}(){\n\tpublic void run(){\n\t\t${line_selection}${cursor}\n\t}\n});"
 }
