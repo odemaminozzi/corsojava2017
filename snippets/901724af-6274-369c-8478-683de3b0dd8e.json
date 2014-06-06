@@ -2,7 +2,7 @@
   "uuid": "901724af-6274-369c-8478-683de3b0dd8e",
   "name": "ScrolledComposite",
   "description": "new ScrolledComposite",
-  "keywords": [
+  "extraSearchTerms": [
     "scrollbar"
   ],
   "tags": [

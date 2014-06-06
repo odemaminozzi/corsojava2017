@@ -2,7 +2,7 @@
   "uuid": "78b1f888-75b9-4ab9-977b-6247fe8a41cb",
   "name": "XML parsing with StAX",
   "description": "Parse an XML input using a pull parser",
-  "keywords": [],
+  "extraSearchTerms": [],
   "tags": [
     "xml"
   ],

@@ -2,7 +2,7 @@
   "uuid": "81ff15e0-6fdb-381c-9c0f-76ea50782db0",
   "name": "toarray",
   "description": "convert collection to array",
-  "keywords": [],
+  "extraSearchTerms": [],
   "tags": [
     "java"
   ],

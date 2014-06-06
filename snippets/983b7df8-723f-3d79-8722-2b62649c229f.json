@@ -2,7 +2,7 @@
   "uuid": "983b7df8-723f-3d79-8722-2b62649c229f",
   "name": "mainloop",
   "description": "new top level Shell with event loop",
-  "keywords": [
+  "extraSearchTerms": [
     "display"
   ],
   "tags": [

@@ -2,7 +2,7 @@
   "uuid": "3eee0d79-7bd0-3373-b6a8-816ddca83120",
   "name": "arrayadd",
   "description": "add an element to an array",
-  "keywords": [
+  "extraSearchTerms": [
     "append"
   ],
   "tags": [

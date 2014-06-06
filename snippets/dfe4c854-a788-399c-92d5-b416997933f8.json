@@ -2,7 +2,7 @@
   "uuid": "dfe4c854-a788-399c-92d5-b416997933f8",
   "name": "syserr",
   "description": "print to standard error",
-  "keywords": [],
+  "extraSearchTerms": [],
   "tags": [
     "java"
   ],

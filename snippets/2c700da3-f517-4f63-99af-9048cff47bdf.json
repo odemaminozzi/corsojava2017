@@ -2,7 +2,7 @@
   "uuid": "2c700da3-f517-4f63-99af-9048cff47bdf",
   "name": "XML parsing to DOM",
   "description": "Parse an XML input into a document object model",
-  "keywords": [
+  "extraSearchTerms": [
     "w3c"
   ],
   "tags": [

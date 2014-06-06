@@ -2,7 +2,7 @@
   "uuid": "4e3aea8d-1a82-49b8-b319-d7a201b2ccc2",
   "name": "Inflater",
   "description": "decompress byte array",
-  "keywords": [
+  "extraSearchTerms": [
     "compression",
     "zlib"
   ],

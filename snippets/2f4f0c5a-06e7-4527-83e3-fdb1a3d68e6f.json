@@ -2,7 +2,7 @@
   "uuid": "2f4f0c5a-06e7-4527-83e3-fdb1a3d68e6f",
   "name": "IProgressMonitor",
   "description": "Record work done with IProgressMonitor",
-  "keywords": [
+  "extraSearchTerms": [
     "ProgressMonitor",
     "activity",
     "task"

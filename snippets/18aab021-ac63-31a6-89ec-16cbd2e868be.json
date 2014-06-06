@@ -2,7 +2,7 @@
   "uuid": "18aab021-ac63-31a6-89ec-16cbd2e868be",
   "name": "static_final",
   "description": "static final field",
-  "keywords": [
+  "extraSearchTerms": [
     "constant"
   ],
   "tags": [

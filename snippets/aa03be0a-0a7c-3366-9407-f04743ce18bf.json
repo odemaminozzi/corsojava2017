@@ -2,7 +2,7 @@
   "uuid": "aa03be0a-0a7c-3366-9407-f04743ce18bf",
   "name": "Shell",
   "description": "new Shell",
-  "keywords": [],
+  "extraSearchTerms": [],
   "tags": [
     "eclipse",
     "swt",

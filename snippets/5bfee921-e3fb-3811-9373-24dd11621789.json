@@ -2,7 +2,7 @@
   "uuid": "5bfee921-e3fb-3811-9373-24dd11621789",
   "name": "@author",
   "description": "author name",
-  "keywords": [
+  "extraSearchTerms": [
     "user"
   ],
   "tags": [

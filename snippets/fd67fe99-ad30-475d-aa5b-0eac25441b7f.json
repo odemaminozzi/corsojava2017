@@ -2,7 +2,7 @@
   "uuid": "fd67fe99-ad30-475d-aa5b-0eac25441b7f",
   "name": "ElementListSelectionDialog",
   "description": "Select elements out of a list of elements",
-  "keywords": [
+  "extraSearchTerms": [
     "dialog",
     "selection"
   ],

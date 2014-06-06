@@ -2,7 +2,7 @@
   "uuid": "d52fb6b2-6a69-3147-8445-ef9c57e7efbe",
   "name": "Combo",
   "description": "new Combo",
-  "keywords": [
+  "extraSearchTerms": [
     "drop-down"
   ],
   "tags": [

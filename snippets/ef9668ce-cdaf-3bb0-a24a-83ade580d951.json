@@ -2,7 +2,7 @@
   "uuid": "ef9668ce-cdaf-3bb0-a24a-83ade580d951",
   "name": "lazy",
   "description": "lazy creation",
-  "keywords": [
+  "extraSearchTerms": [
     "demand"
   ],
   "tags": [

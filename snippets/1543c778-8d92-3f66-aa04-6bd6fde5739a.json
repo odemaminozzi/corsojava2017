@@ -2,7 +2,7 @@
   "uuid": "1543c778-8d92-3f66-aa04-6bd6fde5739a",
   "name": "Composite",
   "description": "new Composite with GridLayout",
-  "keywords": [
+  "extraSearchTerms": [
     "container"
   ],
   "tags": [

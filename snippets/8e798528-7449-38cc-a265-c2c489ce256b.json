@@ -2,7 +2,7 @@
   "uuid": "8e798528-7449-38cc-a265-c2c489ce256b",
   "name": "test3",
   "description": "test method (JUnit 3)",
-  "keywords": [],
+  "extraSearchTerms": [],
   "tags": [
     "test"
   ],

@@ -2,7 +2,7 @@
   "uuid": "c0f60122-6d33-4d04-9672-693675ce76e1",
   "name": "Lock",
   "description": "Acquire and use Lock",
-  "keywords": [
+  "extraSearchTerms": [
     "mutex",
     "unlock"
   ],

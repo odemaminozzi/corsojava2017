@@ -2,7 +2,7 @@
   "uuid": "995816cb-6911-3dda-ba42-2d923f736b84",
   "name": "catch",
   "description": "catch block",
-  "keywords": [
+  "extraSearchTerms": [
     "exception",
     "throwable"
   ],

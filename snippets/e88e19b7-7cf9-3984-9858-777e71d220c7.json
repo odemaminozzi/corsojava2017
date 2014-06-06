@@ -2,7 +2,7 @@
   "uuid": "e88e19b7-7cf9-3984-9858-777e71d220c7",
   "name": "switch",
   "description": "switch case statement",
-  "keywords": [],
+  "extraSearchTerms": [],
   "tags": [
     "java"
   ],

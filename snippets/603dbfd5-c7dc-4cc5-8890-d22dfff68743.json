@@ -2,7 +2,7 @@
   "uuid": "603dbfd5-c7dc-4cc5-8890-d22dfff68743",
   "name": "Deflater",
   "description": "compress byte array",
-  "keywords": [
+  "extraSearchTerms": [
     "compression",
     "zlib"
   ],

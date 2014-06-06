@@ -2,7 +2,7 @@
   "uuid": "9b1a8745-92ee-447c-b607-b1b41fdef307",
   "name": "UIJob",
   "description": "Schedule a new UIJob for execution",
-  "keywords": [
+  "extraSearchTerms": [
     "job"
   ],
   "tags": [

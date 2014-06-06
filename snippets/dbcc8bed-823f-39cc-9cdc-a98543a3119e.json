@@ -2,7 +2,7 @@
   "uuid": "dbcc8bed-823f-39cc-9cdc-a98543a3119e",
   "name": "do",
   "description": "do while statement",
-  "keywords": [
+  "extraSearchTerms": [
     "loop"
   ],
   "tags": [

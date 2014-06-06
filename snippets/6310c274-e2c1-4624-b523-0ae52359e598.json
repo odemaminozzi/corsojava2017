@@ -2,7 +2,7 @@
   "uuid": "6310c274-e2c1-4624-b523-0ae52359e598",
   "name": "String",
   "description": "break string into tokens",
-  "keywords": [
+  "extraSearchTerms": [
     "StringTokenizer",
     "parse",
     "parsing",

@@ -2,7 +2,7 @@
   "uuid": "21adbb15-ba2d-3bc3-b02e-9d436f487eca",
   "name": "Link",
   "description": "new Link",
-  "keywords": [],
+  "extraSearchTerms": [],
   "tags": [
     "eclipse",
     "swt",

@@ -2,7 +2,7 @@
   "uuid": "319cb9e7-b993-3f99-8055-6ce983b304c1",
   "name": "Button",
   "description": "new Button",
-  "keywords": [],
+  "extraSearchTerms": [],
   "tags": [
     "eclipse",
     "swt",

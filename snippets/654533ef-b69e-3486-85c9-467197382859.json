@@ -2,7 +2,7 @@
   "uuid": "654533ef-b69e-3486-85c9-467197382859",
   "name": "Group",
   "description": "new Group with GridLayout",
-  "keywords": [],
+  "extraSearchTerms": [],
   "tags": [
     "eclipse",
     "swt",

@@ -2,7 +2,7 @@
   "uuid": "ea8f2b3c-cae3-36f1-938e-3693a89fc48d",
   "name": "TreeItem",
   "description": "new TreeItem for a Tree",
-  "keywords": [],
+  "extraSearchTerms": [],
   "tags": [
     "eclipse",
     "swt",

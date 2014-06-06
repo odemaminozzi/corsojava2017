@@ -2,7 +2,7 @@
   "uuid": "c626ccf3-5258-3033-bcd2-d67770bf345c",
   "name": "StyleRange",
   "description": "new StyleRange for a StyledText",
-  "keywords": [
+  "extraSearchTerms": [
     "font"
   ],
   "tags": [

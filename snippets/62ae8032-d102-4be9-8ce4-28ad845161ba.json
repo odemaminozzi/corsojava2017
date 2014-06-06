@@ -2,7 +2,7 @@
   "uuid": "62ae8032-d102-4be9-8ce4-28ad845161ba",
   "name": "Fork process",
   "description": "Execute an external command and block",
-  "keywords": [
+  "extraSearchTerms": [
     "program",
     "run"
   ],

@@ -2,7 +2,7 @@
   "uuid": "8970afd4-821f-4a5f-9c24-d55ed5c748fe",
   "name": "Matcher",
   "description": "match string against regular expression",
-  "keywords": [
+  "extraSearchTerms": [
     "regex",
     "pattern"
   ],

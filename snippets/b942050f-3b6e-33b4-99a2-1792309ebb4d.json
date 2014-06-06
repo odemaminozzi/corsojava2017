@@ -2,7 +2,7 @@
   "uuid": "b942050f-3b6e-33b4-99a2-1792309ebb4d",
   "name": "elseif",
   "description": "else if block",
-  "keywords": [],
+  "extraSearchTerms": [],
   "tags": [
     "java"
   ],
