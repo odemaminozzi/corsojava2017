@@ -2,7 +2,7 @@
   "uuid": "38081cd1-9c77-3e20-bdf0-52e992fa70ce",
   "name": "ExpandItem",
   "description": "new ExpandItem for an ExpandBar",
-  "keywords": [
+  "extraSearchTerms": [
     "collapse"
   ],
   "tags": [

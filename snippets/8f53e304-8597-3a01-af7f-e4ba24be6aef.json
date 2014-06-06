@@ -2,7 +2,7 @@
   "uuid": "8f53e304-8597-3a01-af7f-e4ba24be6aef",
   "name": "runnable",
   "description": "runnable",
-  "keywords": [
+  "extraSearchTerms": [
     "thread"
   ],
   "tags": [

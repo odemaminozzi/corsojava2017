@@ -2,7 +2,7 @@
   "uuid": "fad345bf-258c-4418-b181-57f8179925d6",
   "name": "CheckedTreeSelectionDialog",
   "description": "Checked tree selection dialog",
-  "keywords": [
+  "extraSearchTerms": [
     "selection",
     "dialog"
   ],

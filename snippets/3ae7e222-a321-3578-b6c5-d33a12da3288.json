@@ -2,7 +2,7 @@
   "uuid": "3ae7e222-a321-3578-b6c5-d33a12da3288",
   "name": "ToolItem",
   "description": "new ToolItem for a ToolBar",
-  "keywords": [],
+  "extraSearchTerms": [],
   "tags": [
     "eclipse",
     "swt",

@@ -2,7 +2,7 @@
   "uuid": "0376e8a1-e9b7-317c-9768-860cd8bae20c",
   "name": "while",
   "description": "iterate with enumeration",
-  "keywords": [
+  "extraSearchTerms": [
     "loop"
   ],
   "tags": [

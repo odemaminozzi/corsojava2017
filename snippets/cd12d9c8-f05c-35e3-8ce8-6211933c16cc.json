@@ -2,7 +2,7 @@
   "uuid": "cd12d9c8-f05c-35e3-8ce8-6211933c16cc",
   "name": "execute",
   "description": "execute a runnable in the UI thread",
-  "keywords": [
+  "extraSearchTerms": [
     "display",
     "asynchronous",
     "synchronous"

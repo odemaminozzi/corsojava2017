@@ -2,7 +2,7 @@
   "uuid": "17c830c5-5b9b-391e-b6ee-a19d227727c9",
   "name": "Label",
   "description": "new Label",
-  "keywords": [],
+  "extraSearchTerms": [],
   "tags": [
     "eclipse",
     "swt",

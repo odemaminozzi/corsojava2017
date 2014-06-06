@@ -2,7 +2,7 @@
   "uuid": "fa4fb6d7-bbef-454f-bfd9-a44fc5d4ee3a",
   "name": "Concurrently execute a collection of tasks",
   "description": "Execute Callables in parallel, sequentially process their results",
-  "keywords": [],
+  "extraSearchTerms": [],
   "tags": [
     "concurrency",
     "jre"

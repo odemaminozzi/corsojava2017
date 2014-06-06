@@ -2,7 +2,7 @@
   "uuid": "746e460a-8711-4a32-a415-35ac73685143",
   "name": "Notification MessageDialog",
   "description": "Open a simple information, warning or error dialog",
-  "keywords": [
+  "extraSearchTerms": [
     "popup"
   ],
   "tags": [

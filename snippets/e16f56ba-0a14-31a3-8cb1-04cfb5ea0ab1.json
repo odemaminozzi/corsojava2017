@@ -2,7 +2,7 @@
   "uuid": "e16f56ba-0a14-31a3-8cb1-04cfb5ea0ab1",
   "name": "Scale",
   "description": "new Scale",
-  "keywords": [],
+  "extraSearchTerms": [],
   "tags": [
     "eclipse",
     "swt",

@@ -2,7 +2,7 @@
   "uuid": "83f28708-6cc0-4df1-8d99-fd31e6c9e7cc",
   "name": "BufferedReader",
   "description": "Read lines from BufferedReader",
-  "keywords": [
+  "extraSearchTerms": [
     "reader"
   ],
   "tags": [

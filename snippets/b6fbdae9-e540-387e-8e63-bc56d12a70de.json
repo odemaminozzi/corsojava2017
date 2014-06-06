@@ -2,7 +2,7 @@
   "uuid": "b6fbdae9-e540-387e-8e63-bc56d12a70de",
   "name": "instanceof",
   "description": "dynamic type test and cast",
-  "keywords": [],
+  "extraSearchTerms": [],
   "tags": [
     "java"
   ],

@@ -2,7 +2,7 @@
   "uuid": "5c872770-aba8-3203-9161-a6c09204b0c1",
   "name": "for",
   "description": "iterate over collection",
-  "keywords": [
+  "extraSearchTerms": [
     "loop"
   ],
   "tags": [

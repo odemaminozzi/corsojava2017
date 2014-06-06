@@ -2,7 +2,7 @@
   "uuid": "267a26dd-16dc-4b1e-bf4b-8b6170f88cdb",
   "name": "XSL transformation",
   "description": "Transform an XML document with XSLT",
-  "keywords": [],
+  "extraSearchTerms": [],
   "tags": [
     "xml"
   ],

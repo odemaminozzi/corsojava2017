@@ -2,7 +2,7 @@
   "uuid": "edeb543a-ab6f-34dd-ba8b-eb71760a1563",
   "name": "Spinner",
   "description": "new Spinner",
-  "keywords": [
+  "extraSearchTerms": [
     "numeric"
   ],
   "tags": [

@@ -2,7 +2,7 @@
   "uuid": "b96320f2-93a3-4f41-a2f9-9ce7fb8cadbf",
   "name": "Unmarshall object with JAXB",
   "description": "Convert an XML document into a Java object with JAXB",
-  "keywords": [
+  "extraSearchTerms": [
     "deserialize",
     "read"
   ],

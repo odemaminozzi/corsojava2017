@@ -2,7 +2,7 @@
   "uuid": "284532e9-a3d0-34a0-a8cc-b315667e1fbc",
   "name": "TreeColumn",
   "description": "new TreeColumn for a Tree ",
-  "keywords": [],
+  "extraSearchTerms": [],
   "tags": [
     "eclipse",
     "swt",

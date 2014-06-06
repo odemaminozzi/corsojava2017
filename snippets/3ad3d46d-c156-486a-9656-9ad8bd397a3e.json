@@ -2,7 +2,7 @@
   "uuid": "3ad3d46d-c156-486a-9656-9ad8bd397a3e",
   "name": "Interactive MessageDialog",
   "description": "Open a simple confirmation or question dialog",
-  "keywords": [
+  "extraSearchTerms": [
     "yes",
     "no",
     "ok",

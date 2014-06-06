@@ -2,7 +2,7 @@
   "uuid": "866ded60-127f-3343-8b4d-aac7e77b28dc",
   "name": "Image",
   "description": "new Image",
-  "keywords": [
+  "extraSearchTerms": [
     "picture",
     "label"
   ],

@@ -2,7 +2,7 @@
   "uuid": "5a22fa85-d265-3810-9966-abb2c1c24e65",
   "name": "TabFolder",
   "description": "new TabFolder",
-  "keywords": [],
+  "extraSearchTerms": [],
   "tags": [
     "eclipse",
     "swt",

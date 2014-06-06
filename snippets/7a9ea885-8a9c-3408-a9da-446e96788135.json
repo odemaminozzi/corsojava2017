@@ -2,7 +2,7 @@
   "uuid": "7a9ea885-8a9c-3408-a9da-446e96788135",
   "name": "new",
   "description": "create new object",
-  "keywords": [],
+  "extraSearchTerms": [],
   "tags": [
     "java"
   ],

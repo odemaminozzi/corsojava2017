@@ -2,7 +2,7 @@
   "uuid": "133f4a27-06e9-3d88-938c-56d834ed41b8",
   "name": "ToolBar",
   "description": "new ToolBar",
-  "keywords": [],
+  "extraSearchTerms": [],
   "tags": [
     "eclipse",
     "swt",

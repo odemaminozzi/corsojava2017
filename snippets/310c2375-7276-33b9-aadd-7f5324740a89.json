@@ -2,7 +2,7 @@
   "uuid": "310c2375-7276-33b9-aadd-7f5324740a89",
   "name": "test",
   "description": "test method (JUnit 4)",
-  "keywords": [],
+  "extraSearchTerms": [],
   "tags": [
     "test"
   ],

@@ -2,7 +2,7 @@
   "uuid": "c675b89b-e232-49b1-afb7-cd90e312c05f",
   "name": "ElementTreeSelectionDialog",
   "description": "Select elements out of a tree structure",
-  "keywords": [
+  "extraSearchTerms": [
     "selection",
     "dialog"
   ],

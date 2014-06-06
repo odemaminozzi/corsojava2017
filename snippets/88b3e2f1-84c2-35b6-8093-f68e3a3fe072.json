@@ -2,7 +2,7 @@
   "uuid": "88b3e2f1-84c2-35b6-8093-f68e3a3fe072",
   "name": "addlistener",
   "description": "add a listener to a Widget ",
-  "keywords": [
+  "extraSearchTerms": [
     "event"
   ],
   "tags": [

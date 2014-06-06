@@ -2,7 +2,7 @@
   "uuid": "1b705508-dd96-3834-8875-9cd25be39a9b",
   "name": "TabItem",
   "description": "new TabItem for a TabFolder",
-  "keywords": [],
+  "extraSearchTerms": [],
   "tags": [
     "eclipse",
     "swt",

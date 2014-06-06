@@ -2,7 +2,7 @@
   "uuid": "87bdaf43-aab2-32df-a543-04c067671f9b",
   "name": "arraymerge",
   "description": "merge two arrays into one",
-  "keywords": [
+  "extraSearchTerms": [
     "concatenate",
     "append"
   ],

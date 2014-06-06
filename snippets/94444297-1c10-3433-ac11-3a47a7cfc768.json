@@ -2,7 +2,7 @@
   "uuid": "94444297-1c10-3433-ac11-3a47a7cfc768",
   "name": "TableItem",
   "description": "new TableItem for a Table",
-  "keywords": [],
+  "extraSearchTerms": [],
   "tags": [
     "eclipse",
     "swt",

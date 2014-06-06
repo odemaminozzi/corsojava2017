@@ -2,7 +2,7 @@
   "uuid": "6fc50b01-52d0-3ceb-87f6-d78dcd36aee9",
   "name": "DateTime",
   "description": "new DateTime",
-  "keywords": [
+  "extraSearchTerms": [
     "calendar"
   ],
   "tags": [

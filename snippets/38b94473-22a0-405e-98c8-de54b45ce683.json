@@ -2,7 +2,7 @@
   "uuid": "38b94473-22a0-405e-98c8-de54b45ce683",
   "name": "XML parsing with SAX",
   "description": "Parse an XML input using a push parser",
-  "keywords": [],
+  "extraSearchTerms": [],
   "tags": [
     "xml"
   ],

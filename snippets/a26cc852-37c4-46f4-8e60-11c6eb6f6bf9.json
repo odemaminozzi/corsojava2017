@@ -2,7 +2,7 @@
   "uuid": "a26cc852-37c4-46f4-8e60-11c6eb6f6bf9",
   "name": "write object to file",
   "description": "write an object to a file using an ObjectOutputStream",
-  "keywords": [
+  "extraSearchTerms": [
     "output",
     "stream",
     "save",

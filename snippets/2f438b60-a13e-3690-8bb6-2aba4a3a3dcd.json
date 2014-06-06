@@ -2,7 +2,7 @@
   "uuid": "2f438b60-a13e-3690-8bb6-2aba4a3a3dcd",
   "name": "SashForm",
   "description": "new SashForm",
-  "keywords": [],
+  "extraSearchTerms": [],
   "tags": [
     "eclipse",
     "swt",

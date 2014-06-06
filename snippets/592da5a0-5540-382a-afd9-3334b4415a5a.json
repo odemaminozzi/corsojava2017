@@ -2,7 +2,7 @@
   "uuid": "592da5a0-5540-382a-afd9-3334b4415a5a",
   "name": "Browser",
   "description": "new Browser",
-  "keywords": [
+  "extraSearchTerms": [
     "web"
   ],
   "tags": [

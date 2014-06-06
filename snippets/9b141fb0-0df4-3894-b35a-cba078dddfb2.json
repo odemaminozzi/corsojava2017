@@ -2,7 +2,7 @@
   "uuid": "9b141fb0-0df4-3894-b35a-cba078dddfb2",
   "name": "List",
   "description": "new List",
-  "keywords": [],
+  "extraSearchTerms": [],
   "tags": [
     "eclipse",
     "swt",
