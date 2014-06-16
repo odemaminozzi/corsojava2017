@@ -2,7 +2,7 @@
   "uuid": "27f9ebab-d3c3-4fd1-b4c7-95f1b57b62c5",
   "name": "Sleep",
   "description": "Make current thread sleep",
-  "keywords": [
+  "extraSearchTerms": [
     "wait"
   ],
   "tags": [

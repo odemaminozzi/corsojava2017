@@ -2,7 +2,7 @@
   "uuid": "3b403dc9-7d59-411e-968e-27fc6cf311a6",
   "name": "Open File in OutputStream",
   "description": "Create, use and close output stream",
-  "keywords": [
+  "extraSearchTerms": [
     "write"
   ],
   "tags": [

@@ -2,7 +2,7 @@
   "uuid": "dae20ad4-a02a-4c4b-a97e-dfbc051c1b61",
   "name": "Load resource from classpath",
   "description": "Loads a properties file from classpath bundles, e.g.in a jar file, using getResourceAsStream()",
-  "keywords": [],
+  "extraSearchTerms": [],
   "tags": [
     "io",
     "jre"
