@@ -6,5 +6,6 @@
   "tags": [
     "java"
   ],
-  "code": "while (${condition:var(boolean)}) {\n\t${line_selection}${cursor}\n}"
+  "code": "while (${condition:var(boolean)}) {\n\t${line_selection}${cursor}\n}",
+  "context": "JAVA_STATEMENTS"
 }

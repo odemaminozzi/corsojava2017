@@ -8,5 +8,6 @@
   "tags": [
     "java"
   ],
-  "code": "for (${iteratorType:newType(java.util.Iterator)} ${iterator} \u003d ${collection}.iterator(); ${iterator}.hasNext(); ) {\n\t${type:elemType(collection)} ${name:newName(type)} \u003d (${type}) ${iterator}.next();\n\t${cursor}\n}"
+  "code": "for (${iteratorType:newType(java.util.Iterator)} ${iterator} \u003d ${collection}.iterator(); ${iterator}.hasNext(); ) {\n\t${type:elemType(collection)} ${name:newName(type)} \u003d (${type}) ${iterator}.next();\n\t${cursor}\n}",
+  "context": "JAVA_STATEMENTS"
 }

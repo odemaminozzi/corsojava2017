@@ -8,5 +8,6 @@
   "tags": [
     "java"
   ],
-  "code": "while (${en:var(java.util.Enumeration)}.hasMoreElements()) {\n\t${type:argType(en)} ${elem:newName(type)} \u003d (${type}) ${en}.nextElement();\n\t${cursor}\n}"
+  "code": "while (${en:var(java.util.Enumeration)}.hasMoreElements()) {\n\t${type:argType(en)} ${elem:newName(type)} \u003d (${type}) ${en}.nextElement();\n\t${cursor}\n}",
+  "context": "JAVA_STATEMENTS"
 }

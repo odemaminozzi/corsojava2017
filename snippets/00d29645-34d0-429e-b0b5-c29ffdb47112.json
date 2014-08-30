@@ -8,5 +8,6 @@
   "tags": [
     "commons"
   ],
-  "code": "@Override\npublic boolean equals(Object obj) {\n\treturn EqualsBuilder.reflectionEquals(this, obj);\n}\n\n@Override\npublic int hashCode() {\n\treturn HashCodeBuilder.reflectionHashCode(this);\n}\n${:import(org.apache.commons.lang3.builder.EqualsBuilder, org.apache.commons.lang3.builder.HashCodeBuilder)}"
+  "code": "@Override\npublic boolean equals(Object obj) {\n\treturn EqualsBuilder.reflectionEquals(this, obj);\n}\n\n@Override\npublic int hashCode() {\n\treturn HashCodeBuilder.reflectionHashCode(this);\n}\n${:import(org.apache.commons.lang3.builder.EqualsBuilder, org.apache.commons.lang3.builder.HashCodeBuilder)}",
+  "context": "JAVA_STATEMENTS"
 }

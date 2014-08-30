@@ -6,5 +6,6 @@
   "tags": [
     "security"
   ],
-  "code": "${securityManagerType:newType(java.lang.SecurityManager)} ${securityManager:newName(java.lang.SecurityManager)} \u003d System.getSecurityManager();\nif (${securityManager} !\u003d null) {\n\t${securityManager}.check${cursor}\n}"
+  "code": "${securityManagerType:newType(java.lang.SecurityManager)} ${securityManager:newName(java.lang.SecurityManager)} \u003d System.getSecurityManager();\nif (${securityManager} !\u003d null) {\n\t${securityManager}.check${cursor}\n}",
+  "context": "JAVA_STATEMENTS"
 }

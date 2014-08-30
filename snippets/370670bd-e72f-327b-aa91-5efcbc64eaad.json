@@ -6,5 +6,6 @@
   "tags": [
     "java"
   ],
-  "code": "if (${condition:var(boolean)}) {\n\t${cursor}\n} else {\n\t\n}"
+  "code": "if (${condition:var(boolean)}) {\n\t${cursor}\n} else {\n\t\n}",
+  "context": "JAVA_STATEMENTS"
 }

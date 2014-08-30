@@ -8,5 +8,6 @@
   "tags": [
     "jre"
   ],
-  "code": "try {\n\tThread.sleep(${millis:var(int,long)});\n} catch (InterruptedException ${exception_variable_name}) {\n\t${cursor}\n}"
+  "code": "try {\n\tThread.sleep(${millis:var(int,long)});\n} catch (InterruptedException ${exception_variable_name}) {\n\t${cursor}\n}",
+  "context": "JAVA_STATEMENTS"
 }

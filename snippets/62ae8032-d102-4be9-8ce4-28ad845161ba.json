@@ -10,5 +10,6 @@
     "jre",
     "os"
   ],
-  "code": "Runtime ${runtime:newName(java.lang.Runtime)} \u003d Runtime.getRuntime();\nProcess ${process:newName(java.lang.Process)} \u003d ${runtime}.exec(new String[] { ${cursor} });\n${process}.waitFor();\nint ${exitValue:newName(int)} \u003d ${process}.exitValue();"
+  "code": "Runtime ${runtime:newName(java.lang.Runtime)} \u003d Runtime.getRuntime();\nProcess ${process:newName(java.lang.Process)} \u003d ${runtime}.exec(new String[] { ${cursor} });\n${process}.waitFor();\nint ${exitValue:newName(int)} \u003d ${process}.exitValue();",
+  "context": "JAVA_STATEMENTS"
 }

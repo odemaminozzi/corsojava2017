@@ -6,5 +6,6 @@
   "tags": [
     "java"
   ],
-  "code": "${type} ${name} \u003d new ${type}(${arguments});"
+  "code": "${type} ${name} \u003d new ${type}(${arguments});",
+  "context": "JAVA"
 }

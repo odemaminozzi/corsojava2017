@@ -10,5 +10,6 @@
     "swt",
     "widget"
   ],
-  "code": "${type:newType(org.eclipse.swt.widgets.ExpandItem)} ${item:newName(org.eclipse.swt.widgets.ExpandItem)}\u003d new ${type}(${parent:var(org.eclipse.swt.widgets.ExpandBar)}, SWT.NONE);\n${item}.setText(${word_selection}${});\n${imp:import(org.eclipse.swt.SWT)}${cursor}\n\n${item}.setControl(${control});\n${item}.setHeight(${control}.computeSize(SWT.DEFAULT, SWT.DEFAULT).y);"
+  "code": "${type:newType(org.eclipse.swt.widgets.ExpandItem)} ${item:newName(org.eclipse.swt.widgets.ExpandItem)}\u003d new ${type}(${parent:var(org.eclipse.swt.widgets.ExpandBar)}, SWT.NONE);\n${item}.setText(${word_selection}${});\n${imp:import(org.eclipse.swt.SWT)}${cursor}\n\n${item}.setControl(${control});\n${item}.setHeight(${control}.computeSize(SWT.DEFAULT, SWT.DEFAULT).y);",
+  "context": "JAVA_STATEMENTS"
 }

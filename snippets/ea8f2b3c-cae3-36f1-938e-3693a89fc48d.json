@@ -8,5 +8,6 @@
     "swt",
     "widget"
   ],
-  "code": "${type:newType(org.eclipse.swt.widgets.TreeItem)} ${item:newName(org.eclipse.swt.widgets.TreeItem)}\u003d new ${type}(${parent:var(org.eclipse.swt.widgets.Tree, org.eclipse.swt.widgets.TreeItem)}, SWT.NONE);\n${item}.setText(${count:link(0, 1, 2, 3, 4, 5)}, ${word_selection}${});\n${imp:import(org.eclipse.swt.SWT)}${cursor}"
+  "code": "${type:newType(org.eclipse.swt.widgets.TreeItem)} ${item:newName(org.eclipse.swt.widgets.TreeItem)}\u003d new ${type}(${parent:var(org.eclipse.swt.widgets.Tree, org.eclipse.swt.widgets.TreeItem)}, SWT.NONE);\n${item}.setText(${count:link(0, 1, 2, 3, 4, 5)}, ${word_selection}${});\n${imp:import(org.eclipse.swt.SWT)}${cursor}",
+  "context": "JAVA_STATEMENTS"
 }

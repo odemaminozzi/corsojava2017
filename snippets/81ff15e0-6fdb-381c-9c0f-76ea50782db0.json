@@ -6,5 +6,6 @@
   "tags": [
     "java"
   ],
-  "code": "(${type:elemType(collection)}[]) ${collection}.toArray(new ${type}[${collection}.size()])"
+  "code": "(${type:elemType(collection)}[]) ${collection}.toArray(new ${type}[${collection}.size()])",
+  "context": "JAVA_STATEMENTS"
 }

@@ -8,5 +8,6 @@
     "swt",
     "widget"
   ],
-  "code": "${type:newType(org.eclipse.swt.widgets.ToolBar)} ${bar:newName(org.eclipse.swt.widgets.ToolBar)}\u003d new ${type}(${parent:var(org.eclipse.swt.widgets.Composite)}, ${style:link(SWT.FLAT, SWT.WRAP, SWT.RIGHT, SWT.HORIZONTAL, SWT.VERTICAL, SWT.SHADOW_OUT)});\n${bar}.setLayoutData(new ${gridDataType:newType(org.eclipse.swt.layout.GridData)}(SWT.${horizontal:link(FILL, BEGINNING, CENTER, END)}, SWT.${vertical:link(FILL, TOP, CENTER, BOTTOM)}, ${hex:link(true, false)}, ${vex:link(true, false)}));\n${imp:import(org.eclipse.swt.SWT)}${cursor}"
+  "code": "${type:newType(org.eclipse.swt.widgets.ToolBar)} ${bar:newName(org.eclipse.swt.widgets.ToolBar)}\u003d new ${type}(${parent:var(org.eclipse.swt.widgets.Composite)}, ${style:link(SWT.FLAT, SWT.WRAP, SWT.RIGHT, SWT.HORIZONTAL, SWT.VERTICAL, SWT.SHADOW_OUT)});\n${bar}.setLayoutData(new ${gridDataType:newType(org.eclipse.swt.layout.GridData)}(SWT.${horizontal:link(FILL, BEGINNING, CENTER, END)}, SWT.${vertical:link(FILL, TOP, CENTER, BOTTOM)}, ${hex:link(true, false)}, ${vex:link(true, false)}));\n${imp:import(org.eclipse.swt.SWT)}${cursor}",
+  "context": "JAVA_STATEMENTS"
 }

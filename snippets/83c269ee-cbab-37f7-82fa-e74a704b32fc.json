@@ -6,5 +6,6 @@
   "tags": [
     "java"
   ],
-  "code": "public static ${return_type} ${name}(${}) {\n\t${cursor}\n}"
+  "code": "public static ${return_type} ${name}(${}) {\n\t${cursor}\n}",
+  "context": "JAVA_TYPE_MEMBERS"
 }

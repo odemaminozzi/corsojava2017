@@ -10,5 +10,6 @@
     "jface",
     "swt"
   ],
-  "code": "MessageDialog.${kind:link(openInformation, openWarning, openError)}(${shell:var(org.eclipse.swt.widgets.Shell)}, ${title:var(java.lang.String)}, ${question:var(java.lang.String)});\n${:import(org.eclipse.jface.dialogs.MessageDialog)}"
+  "code": "MessageDialog.${kind:link(openInformation, openWarning, openError)}(${shell:var(org.eclipse.swt.widgets.Shell)}, ${title:var(java.lang.String)}, ${question:var(java.lang.String)});\n${:import(org.eclipse.jface.dialogs.MessageDialog)}",
+  "context": "JAVA_STATEMENTS"
 }

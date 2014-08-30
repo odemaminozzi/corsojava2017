@@ -10,5 +10,6 @@
     "eclipse",
     "swt"
   ],
-  "code": "new UIJob(\"${name}\") {\n\tpublic IStatus runInUIThread(IProgressMonitor monitor) {\n\t\t${line_selection}${cursor}\n\t\treturn Status.${status:link(OK_STATUS, CANCEL_STATUS)};\n\t}\n}.schedule(${delay:link(\u0027\u0027, 0L)});\n${:import(org.eclipse.ui.progress.UIJob, org.eclipse.core.runtime.IStatus, org.eclipse.core.runtime.IProgressMonitor, org.eclipse.core.runtime.Status)}\n"
+  "code": "new UIJob(\"${name}\") {\n\tpublic IStatus runInUIThread(IProgressMonitor monitor) {\n\t\t${line_selection}${cursor}\n\t\treturn Status.${status:link(OK_STATUS, CANCEL_STATUS)};\n\t}\n}.schedule(${delay:link(\u0027\u0027, 0L)});\n${:import(org.eclipse.ui.progress.UIJob, org.eclipse.core.runtime.IStatus, org.eclipse.core.runtime.IProgressMonitor, org.eclipse.core.runtime.Status)}\n",
+  "context": "JAVA_STATEMENTS"
 }

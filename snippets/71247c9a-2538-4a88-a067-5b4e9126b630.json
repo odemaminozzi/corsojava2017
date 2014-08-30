@@ -14,5 +14,6 @@
     "eclipse",
     "ui"
   ],
-  "code": "ColorDialog ${dialog:newName(org.eclipse.swt.widgets.ColorDialog)} \u003d new ColorDialog(${shell:var(org.eclipse.swt.widgets.Shell)});\n${dialog}.setRGB(${rgb:var(org.eclipse.swt.graphics.RGB)});\nRGB ${color:newName(org.eclipse.swt.graphics.RGB)} \u003d ${dialog}.open();\n${:import(org.eclipse.swt.widgets.ColorDialog, org.eclipse.swt.graphics.RGB)}"
+  "code": "ColorDialog ${dialog:newName(org.eclipse.swt.widgets.ColorDialog)} \u003d new ColorDialog(${shell:var(org.eclipse.swt.widgets.Shell)});\n${dialog}.setRGB(${rgb:var(org.eclipse.swt.graphics.RGB)});\nRGB ${color:newName(org.eclipse.swt.graphics.RGB)} \u003d ${dialog}.open();\n${:import(org.eclipse.swt.widgets.ColorDialog, org.eclipse.swt.graphics.RGB)}",
+  "context": "JAVA_STATEMENTS"
 }

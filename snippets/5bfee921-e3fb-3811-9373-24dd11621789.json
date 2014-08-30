@@ -8,5 +8,6 @@
   "tags": [
     "javadoc"
   ],
-  "code": "@author ${user}"
+  "code": "@author ${user}",
+  "context": "JAVADOC"
 }

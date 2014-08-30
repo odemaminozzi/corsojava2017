@@ -9,5 +9,6 @@
     "java",
     "comment"
   ],
-  "code": "//$$FALL-THROUGH$$"
+  "code": "//$$FALL-THROUGH$$",
+  "context": "JAVA_STATEMENTS"
 }

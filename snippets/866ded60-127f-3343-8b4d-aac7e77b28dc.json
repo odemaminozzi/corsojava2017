@@ -11,5 +11,6 @@
     "swt",
     "widget"
   ],
-  "code": "${labelType:newType(org.eclipse.swt.widgets.Label)} ${image:newName(org.eclipse.swt.widgets.Label)}\u003d new ${labelType}(${parent:var(org.eclipse.swt.widgets.Composite)}, ${style:link(SWT.NONE, SWT.BORDER)});\n${image}.setLayoutData(new ${type:newType(org.eclipse.swt.layout.GridData)}(SWT.${horizontal:link(BEGINNING, CENTER, END, FILL)}, SWT.${vertical:link(CENTER, TOP, BOTTOM, FILL)}, ${hex:link(false, true)}, ${vex:link(false, true)}));\n${image}.setImage(${word_selection}${});\n${imp:import(org.eclipse.swt.SWT)}${cursor}"
+  "code": "${labelType:newType(org.eclipse.swt.widgets.Label)} ${image:newName(org.eclipse.swt.widgets.Label)}\u003d new ${labelType}(${parent:var(org.eclipse.swt.widgets.Composite)}, ${style:link(SWT.NONE, SWT.BORDER)});\n${image}.setLayoutData(new ${type:newType(org.eclipse.swt.layout.GridData)}(SWT.${horizontal:link(BEGINNING, CENTER, END, FILL)}, SWT.${vertical:link(CENTER, TOP, BOTTOM, FILL)}, ${hex:link(false, true)}, ${vex:link(false, true)}));\n${image}.setImage(${word_selection}${});\n${imp:import(org.eclipse.swt.SWT)}${cursor}",
+  "context": "JAVA_STATEMENTS"
 }

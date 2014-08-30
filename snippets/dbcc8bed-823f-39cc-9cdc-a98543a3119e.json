@@ -8,5 +8,6 @@
   "tags": [
     "java"
   ],
-  "code": "do {\n\t${line_selection}${cursor}\n} while (${condition:var(boolean)});"
+  "code": "do {\n\t${line_selection}${cursor}\n} while (${condition:var(boolean)});",
+  "context": "JAVA_STATEMENTS"
 }

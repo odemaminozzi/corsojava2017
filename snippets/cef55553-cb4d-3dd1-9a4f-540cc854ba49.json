@@ -8,5 +8,6 @@
   "tags": [
     "java"
   ],
-  "code": "synchronized (${mutex:var}) {\n\t${line_selection}\n}"
+  "code": "synchronized (${mutex:var}) {\n\t${line_selection}\n}",
+  "context": "JAVA_STATEMENTS"
 }

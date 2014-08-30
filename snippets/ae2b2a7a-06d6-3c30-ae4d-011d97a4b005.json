@@ -6,5 +6,6 @@
   "tags": [
     "java"
   ],
-  "code": "public static void main(String[] args) {\n\t${cursor}\n}"
+  "code": "public static void main(String[] args) {\n\t${cursor}\n}",
+  "context": "JAVA_TYPE_MEMBERS"
 }

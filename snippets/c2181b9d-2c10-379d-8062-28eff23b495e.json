@@ -6,5 +6,6 @@
   "tags": [
     "java"
   ],
-  "code": "for (${iterable_type} ${iterable_element} : ${iterable}) {\n\t${cursor}\n}"
+  "code": "for (${iterable_type} ${iterable_element} : ${iterable}) {\n\t${cursor}\n}",
+  "context": "JAVA_STATEMENTS"
 }

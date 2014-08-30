@@ -6,5 +6,6 @@
   "tags": [
     "java"
   ],
-  "code": "protected ${return_type} ${name}(${}) {\n\t${cursor}\n}"
+  "code": "protected ${return_type} ${name}(${}) {\n\t${cursor}\n}",
+  "context": "JAVA_TYPE_MEMBERS"
 }

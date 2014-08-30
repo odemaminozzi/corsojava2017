@@ -8,5 +8,6 @@
     "swt",
     "widget"
   ],
-  "code": "${type:newType(org.eclipse.swt.widgets.TabItem)} ${item:newName(org.eclipse.swt.widgets.TabItem)}\u003d new ${type}(${parent:var(org.eclipse.swt.widgets.TabFolder)}, SWT.NONE);\n${item}.setText(${word_selection}${});\n${imp:import(org.eclipse.swt.SWT)}${cursor}\n\n${item}.setControl(${control});"
+  "code": "${type:newType(org.eclipse.swt.widgets.TabItem)} ${item:newName(org.eclipse.swt.widgets.TabItem)}\u003d new ${type}(${parent:var(org.eclipse.swt.widgets.TabFolder)}, SWT.NONE);\n${item}.setText(${word_selection}${});\n${imp:import(org.eclipse.swt.SWT)}${cursor}\n\n${item}.setControl(${control});",
+  "context": "JAVA_STATEMENTS"
 }

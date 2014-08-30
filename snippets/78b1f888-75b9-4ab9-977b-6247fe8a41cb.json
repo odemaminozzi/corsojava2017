@@ -6,5 +6,6 @@
   "tags": [
     "xml"
   ],
-  "code": "XMLInputFactory ${factory:newName(javax.xml.stream.XMLInputFactory)} \u003d XMLInputFactory.newInstance();\nXMLEventReader ${reader:newName(javax.xml.stream.XMLEventReader)} \u003d ${factory}.createXMLEventReader(${input});\nwhile (${reader}.hasNext()) {\n\tXMLEvent ${event:newName(javax.xml.stream.events.XMLEvent)} \u003d ${reader}.nextEvent();\n\t// ${todo} Process ${event}\n}\n${:import(javax.xml.stream.XMLInputFactory,javax.xml.stream.XMLEventReader,javax.xml.stream.events.XMLEvent)}"
+  "code": "XMLInputFactory ${factory:newName(javax.xml.stream.XMLInputFactory)} \u003d XMLInputFactory.newInstance();\nXMLEventReader ${reader:newName(javax.xml.stream.XMLEventReader)} \u003d ${factory}.createXMLEventReader(${input});\nwhile (${reader}.hasNext()) {\n\tXMLEvent ${event:newName(javax.xml.stream.events.XMLEvent)} \u003d ${reader}.nextEvent();\n\t// ${todo} Process ${event}\n}\n${:import(javax.xml.stream.XMLInputFactory,javax.xml.stream.XMLEventReader,javax.xml.stream.events.XMLEvent)}",
+  "context": "JAVA_STATEMENTS"
 }

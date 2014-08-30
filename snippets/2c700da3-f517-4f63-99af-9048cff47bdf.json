@@ -8,5 +8,6 @@
   "tags": [
     "xml"
   ],
-  "code": "DocumentBuilderFactory ${factory:newName(javax.xml.parsers.DocumentBuilderFactory)} \u003d DocumentBuilderFactory.newInstance();\nDocumentBuilder ${builder:newName(javax.xml.parsers.DocumentBuilder)} \u003d ${factory}.newDocumentBuilder();\nDocument ${dom:newName(org.w3c.dom.Document)} \u003d ${builder}.parse(${cursor});\n${:import(javax.xml.parsers.DocumentBuilderFactory,javax.xml.parsers.DocumentBuilder,org.w3c.dom.Document)}"
+  "code": "DocumentBuilderFactory ${factory:newName(javax.xml.parsers.DocumentBuilderFactory)} \u003d DocumentBuilderFactory.newInstance();\nDocumentBuilder ${builder:newName(javax.xml.parsers.DocumentBuilder)} \u003d ${factory}.newDocumentBuilder();\nDocument ${dom:newName(org.w3c.dom.Document)} \u003d ${builder}.parse(${cursor});\n${:import(javax.xml.parsers.DocumentBuilderFactory,javax.xml.parsers.DocumentBuilder,org.w3c.dom.Document)}",
+  "context": "JAVA_STATEMENTS"
 }

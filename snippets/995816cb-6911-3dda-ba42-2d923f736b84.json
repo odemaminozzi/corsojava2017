@@ -9,5 +9,6 @@
   "tags": [
     "java"
   ],
-  "code": "catch (${Exception} ${exception_variable_name}) {\n\t${cursor}// ${todo}: handle exception\n}"
+  "code": "catch (${Exception} ${exception_variable_name}) {\n\t${cursor}// ${todo}: handle exception\n}",
+  "context": "JAVA_STATEMENTS"
 }

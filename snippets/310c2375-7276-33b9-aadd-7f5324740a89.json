@@ -6,5 +6,6 @@
   "tags": [
     "test"
   ],
-  "code": "@${testType:newType(org.junit.Test)}\npublic void ${testName}() throws Exception {\n\t${staticImport:importStatic(\u0027org.junit.Assert.*\u0027)}${cursor}\n}"
+  "code": "@${testType:newType(org.junit.Test)}\npublic void ${testName}() throws Exception {\n\t${staticImport:importStatic(\u0027org.junit.Assert.*\u0027)}${cursor}\n}",
+  "context": "JAVA_TYPE_MEMBERS"
 }

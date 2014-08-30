@@ -11,5 +11,6 @@
     "eclipse",
     "ui"
   ],
-  "code": "${wizardPage:var(org.eclipse.jface.wizard.WizardPage)}.setErrorMessage(${message:var(java.lang.String)});\n${wizardPage}.setPageComplete(${complete:link(false, true)});\n"
+  "code": "${wizardPage:var(org.eclipse.jface.wizard.WizardPage)}.setErrorMessage(${message:var(java.lang.String)});\n${wizardPage}.setPageComplete(${complete:link(false, true)});\n",
+  "context": "JAVA_STATEMENTS"
 }

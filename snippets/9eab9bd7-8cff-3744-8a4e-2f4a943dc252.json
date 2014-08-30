@@ -6,5 +6,6 @@
   "tags": [
     "java"
   ],
-  "code": "System.out.println(\"${enclosing_type}.${enclosing_method}()\");"
+  "code": "System.out.println(\"${enclosing_type}.${enclosing_method}()\");",
+  "context": "JAVA_STATEMENTS"
 }

@@ -6,5 +6,6 @@
   "tags": [
     "java"
   ],
-  "code": "System.out.println(${word_selection}${});${cursor}"
+  "code": "System.out.println(${word_selection}${});${cursor}",
+  "context": "JAVA_STATEMENTS"
 }

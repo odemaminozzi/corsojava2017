@@ -6,5 +6,6 @@
   "tags": [
     "xml"
   ],
-  "code": "SAXParserFactory ${factory:newName(javax.xml.parsers.SAXParserFactory)} \u003d SAXParserFactory.newInstance();\nSAXParser ${parser:newName(javax.xml.parsers.SAXParser)} \u003d ${factory}.newSAXParser();\n${parser}.parse(${input}, new DefaultHandler() {\n\t// ${todo} Override methods as necessary\n});\n${:import(javax.xml.parsers.SAXParserFactory,javax.xml.parsers.SAXParser,org.xml.sax.helpers.DefaultHandler)}"
+  "code": "SAXParserFactory ${factory:newName(javax.xml.parsers.SAXParserFactory)} \u003d SAXParserFactory.newInstance();\nSAXParser ${parser:newName(javax.xml.parsers.SAXParser)} \u003d ${factory}.newSAXParser();\n${parser}.parse(${input}, new DefaultHandler() {\n\t// ${todo} Override methods as necessary\n});\n${:import(javax.xml.parsers.SAXParserFactory,javax.xml.parsers.SAXParser,org.xml.sax.helpers.DefaultHandler)}",
+  "context": "JAVA_STATEMENTS"
 }

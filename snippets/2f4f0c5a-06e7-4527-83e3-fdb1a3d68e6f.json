@@ -10,5 +10,6 @@
   "tags": [
     "eclipse"
   ],
-  "code": "${monitor:var(org.eclipse.core.runtime.IProgressMonitor)} \u003d ${monitor} !\u003d null ? ${monitor} : new NullProgressMonitor();\n${monitor}.beginTask(\"${name}\", ${totalWork});\ntry {\n\t${line_selection}${cursor}\n} finally {\n\t${monitor}.done();\n}\n${:import(org.eclipse.core.runtime.NullProgressMonitor)}\n"
+  "code": "${monitor:var(org.eclipse.core.runtime.IProgressMonitor)} \u003d ${monitor} !\u003d null ? ${monitor} : new NullProgressMonitor();\n${monitor}.beginTask(\"${name}\", ${totalWork});\ntry {\n\t${line_selection}${cursor}\n} finally {\n\t${monitor}.done();\n}\n${:import(org.eclipse.core.runtime.NullProgressMonitor)}\n",
+  "context": "JAVA_STATEMENTS"
 }
