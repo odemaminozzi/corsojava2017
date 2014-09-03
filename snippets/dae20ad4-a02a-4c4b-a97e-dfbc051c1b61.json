@@ -7,6 +7,6 @@
     "io",
     "jre"
   ],
-  "code": "InputStream ${stream:newName(java.io.InputStream)} 003d ${enclosing_type}.class.getResourceAsStream(\"/resources/resources.properties\");\nProperties ${props:newName(java.util.Properties)} 003d new Properties();\n${props}.load(${stream});\nObject ${value} 003d ${props}.get(${propertyName:var(java.lang.String)});\n${:import(java.io.InputStream, java.util.Properties)}",
+  "code": "InputStream ${stream:newName(java.io.InputStream)} \u003d ${enclosing_type}.class.getResourceAsStream(\"/resources/resources.properties\");\nProperties ${props:newName(java.util.Properties)} \u003d new Properties();\n${props}.load(${stream});\nObject ${value} \u003d ${props}.get(${propertyName:var(java.lang.String)});\n${:import(java.io.InputStream, java.util.Properties)}",
   "location": "JAVA_STATEMENTS"
 }
