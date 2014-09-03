@@ -11,5 +11,5 @@
     "widget"
   ],
   "code": "${type:newType(org.eclipse.swt.custom.StyledText)} ${text:newName(org.eclipse.swt.custom.StyledText)}\u003d new ${type}(${parent:var(org.eclipse.swt.widgets.Composite)}, ${style:link(\u0027SWT.V_SCROLL | SWT.H_SCROLL\u0027, \u0027SWT.V_SCROLL | SWT.H_SCROLL | SWT.READ_ONLY\u0027, \u0027SWT.WRAP | SWT.V_SCROLL\u0027, SWT.NONE, SWT.BORDER, SWT.FULL_SELECTION)});\n${text}.setLayoutData(new ${gridDataType:newType(org.eclipse.swt.layout.GridData)}(SWT.${horizontal:link(FILL, BEGINNING, CENTER, END)}, SWT.${vertical:link(FILL, TOP, CENTER, BOTTOM)}, ${hex:link(true, false)}, ${vex:link(true, false)}));\n${text}.setText(${word_selection}${});\n${imp:import(org.eclipse.swt.SWT)}${cursor}",
-  "context": "JAVA_STATEMENTS"
+  "location": "JAVA_STATEMENTS"
 }

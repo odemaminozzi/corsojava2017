@@ -7,5 +7,5 @@
     "java"
   ],
   "code": "switch (${key}) {\n\tcase ${value}:\n\t\t${cursor}\n\t\tbreak;\n\n\tdefault:\n\t\tbreak;\n}",
-  "context": "JAVA_STATEMENTS"
+  "location": "JAVA_STATEMENTS"
 }

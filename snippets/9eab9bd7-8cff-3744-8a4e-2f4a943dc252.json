@@ -7,5 +7,5 @@
     "java"
   ],
   "code": "System.out.println(\"${enclosing_type}.${enclosing_method}()\");",
-  "context": "JAVA_STATEMENTS"
+  "location": "JAVA_STATEMENTS"
 }

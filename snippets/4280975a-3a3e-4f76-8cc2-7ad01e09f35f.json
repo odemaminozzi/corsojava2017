@@ -11,5 +11,5 @@
     "ui"
   ],
   "code": "CheckboxTableViewer ${viewer:newName(org.eclipse.jface.viewers.CheckboxTableViewer)} \u003d CheckboxTableViewer.newCheckList(${parent:var(org.eclipse.swt.widgets.Composite)}, ${i:link(SWT.BORDER, SWT.NONE)});\n${viewer}.setContentProvider(${contentProvider:var(org.eclipse.jface.viewers.IContentProvider)});\n${viewer}.setLabelProvider(${labelProvider:var(org.eclipse.jface.viewers.IBaseLabelProvider)});\n${viewer}.setInput(${object:var(java.lang.Object)});\n${:import(org.eclipse.jface.viewers.CheckboxTableViewer, org.eclipse.swt.SWT)}",
-  "context": "JAVA_STATEMENTS"
+  "location": "JAVA_STATEMENTS"
 }

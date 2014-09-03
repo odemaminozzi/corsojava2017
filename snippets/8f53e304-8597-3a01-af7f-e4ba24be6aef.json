@@ -9,5 +9,5 @@
     "java"
   ],
   "code": "new Runnable() {\n\tpublic void run() {\n\t\t${line_selection}\n\t}\n}",
-  "context": "JAVA"
+  "location": "JAVA"
 }

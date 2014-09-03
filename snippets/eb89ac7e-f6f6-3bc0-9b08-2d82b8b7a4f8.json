@@ -10,5 +10,5 @@
     "comment"
   ],
   "code": "//$$FALL-THROUGH$$",
-  "context": "JAVA_STATEMENTS"
+  "location": "JAVA_STATEMENTS"
 }

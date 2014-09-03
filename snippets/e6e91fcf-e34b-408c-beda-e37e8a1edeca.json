@@ -9,5 +9,5 @@
     "jre"
   ],
   "code": "${urlType:newType(java.net.URL)} ${url:newName(java.net.URL)} \u003d getClass().getClassLoader().getResource(${resourceName:var(String)})",
-  "context": "JAVA"
+  "location": "JAVA"
 }

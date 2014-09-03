@@ -7,5 +7,5 @@
     "test"
   ],
   "code": "public void test${name}() throws Exception {\n\t${cursor}\n}",
-  "context": "JAVA_TYPE_MEMBERS"
+  "location": "JAVA_TYPE_MEMBERS"
 }

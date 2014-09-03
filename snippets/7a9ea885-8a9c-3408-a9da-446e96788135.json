@@ -7,5 +7,5 @@
     "java"
   ],
   "code": "${type} ${name} \u003d new ${type}(${arguments});",
-  "context": "JAVA"
+  "location": "JAVA"
 }

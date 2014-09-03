@@ -9,5 +9,5 @@
     "widget"
   ],
   "code": "${type:newType(org.eclipse.swt.custom.SashForm)} ${sash:newName(org.eclipse.swt.custom.SashForm)}\u003d new ${type}(${parent:var(org.eclipse.swt.widgets.Composite)}, ${style:link(SWT.HORIZONTAL, SWT.VERTICAL)});\n${sash}.setLayoutData(new ${gridDataType:newType(org.eclipse.swt.layout.GridData)}(SWT.${horizontal:link(FILL, BEGINNING, CENTER, END)}, SWT.${vertical:link(FILL, TOP, CENTER, BOTTOM)}, ${hex:link(true, false)}, ${vex:link(true, false)}));\n${imp:import(org.eclipse.swt.SWT)}${cursor}\n\n${sash}.setWeights(new int[] {1, 1});",
-  "context": "JAVA_STATEMENTS"
+  "location": "JAVA_STATEMENTS"
 }

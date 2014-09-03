@@ -14,5 +14,5 @@
     "accessibility"
   ],
   "code": "Accessible ${accessible:newName(org.eclipse.swt.accessibility.Accessible)} \u003d ${control:var(org.eclipse.swt.widgets.Control)}.getAccessible();\n${accessible}.addAccessibleListener(${accessibleListener:var(org.eclipse.swt.accessibility.AccessibleListener)});\n${accessible}.addAccessibleControlListener(${accessibleControlListener:var(org.eclipse.swt.accessibility.AccessibleControlListener)});\n${:import(org.eclipse.swt.accessibility.Accessible)}",
-  "context": "JAVA_STATEMENTS"
+  "location": "JAVA_STATEMENTS"
 }

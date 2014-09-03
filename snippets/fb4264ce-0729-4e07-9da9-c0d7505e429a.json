@@ -14,5 +14,5 @@
     "zip"
   ],
   "code": "${zipOutputStream:var(java.util.zip.ZipOutputStream)}.putNextEntry(${zipEntry:var(java.util.zip.ZipEntry)});\n${zipOutputStream}.write(${byteArray:var(\u0027byte[]\u0027)});",
-  "context": "JAVA_STATEMENTS"
+  "location": "JAVA_STATEMENTS"
 }

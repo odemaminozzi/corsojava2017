@@ -15,5 +15,5 @@
     "swt"
   ],
   "code": "boolean ${result} \u003d MessageDialog.${kind:link(openConfirm, openQuestion)}(${shell:var(org.eclipse.swt.widgets.Shell)}, ${title:var(java.lang.String)}, ${question:var(java.lang.String)});\n${:import(org.eclipse.jface.dialogs.MessageDialog)}",
-  "context": "JAVA_STATEMENTS"
+  "location": "JAVA_STATEMENTS"
 }

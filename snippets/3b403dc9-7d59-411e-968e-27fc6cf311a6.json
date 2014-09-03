@@ -10,5 +10,5 @@
     "jre"
   ],
   "code": "${ostreamType:newType(java.io.OutputStream)} ${ostream:newName(java.io.OutputStream)}  \u003d new ${fos:newType(java.io.FileOutputStream)}(${file:var(java.io.File)});\ntry {\n\t${cursor}\n} finally {\n\t${ostream}.close();\n}",
-  "context": "JAVA_STATEMENTS"
+  "location": "JAVA_STATEMENTS"
 }

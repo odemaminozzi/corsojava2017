@@ -7,5 +7,5 @@
     "jre"
   ],
   "code": "for(Entry\u003c${keyType:argType(map,0)},${valueType:argType(map,1)}\u003e ${entry} : ${map:var(java.util.Map)}.entrySet()) {\n\t${keyType} ${key} \u003d ${entry}.getKey();\n\t${valueType} ${value} \u003d ${entry}.getValue();\n\t${cursor}\n}\n${:import(java.util.Map.Entry)}",
-  "context": "JAVA_STATEMENTS"
+  "location": "JAVA_STATEMENTS"
 }

@@ -11,5 +11,5 @@
     "jre"
   ],
   "code": " ${lock:var(java.util.concurrent.locks.Lock)}.lock();\ntry{\n\t${cursor}\n} finally {\n\t${lock:var(java.util.concurrent.locks.Lock)}.unlock();\n}\n",
-  "context": "JAVA_STATEMENTS"
+  "location": "JAVA_STATEMENTS"
 }

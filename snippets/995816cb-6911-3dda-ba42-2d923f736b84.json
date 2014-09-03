@@ -10,5 +10,5 @@
     "java"
   ],
   "code": "catch (${Exception} ${exception_variable_name}) {\n\t${cursor}// ${todo}: handle exception\n}",
-  "context": "JAVA_STATEMENTS"
+  "location": "JAVA_STATEMENTS"
 }

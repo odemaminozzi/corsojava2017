@@ -7,5 +7,5 @@
     "logging"
   ],
   "code": "private static final ${loggerType:newType(org.slf4j.Logger)} ${logger:link(LOG,LOGGER)} \u003d ${loggerFactory:newType(org.slf4j.LoggerFactory)}.getLogger(${enclosing_type}.class);",
-  "context": "JAVA_TYPE_MEMBERS"
+  "location": "JAVA_TYPE_MEMBERS"
 }

@@ -9,5 +9,5 @@
     "java"
   ],
   "code": "for (int ${index} \u003d 0; ${index} \u003c ${array}.length; ${index}++) {\n\t${line_selection}${cursor}\n}",
-  "context": "JAVA_STATEMENTS"
+  "location": "JAVA_STATEMENTS"
 }

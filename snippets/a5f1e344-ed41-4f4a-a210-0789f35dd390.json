@@ -9,5 +9,5 @@
     "ui"
   ],
   "code": "Clipboard ${clipboard:newName(org.eclipse.swt.dnd.Clipboard)} \u003d new Clipboard(${display:var(org.eclipse.swt.widgets.Display)});\nObject ${contents:newName(java.lang.Object)} \u003d ${clipboard}.getContents(${transfer:var(org.eclipse.swt.dnd.Transfer)});\n${clipboard}.dispose();\n${:import(org.eclipse.swt.dnd.Clipboard)}",
-  "context": "JAVA_STATEMENTS"
+  "location": "JAVA_STATEMENTS"
 }

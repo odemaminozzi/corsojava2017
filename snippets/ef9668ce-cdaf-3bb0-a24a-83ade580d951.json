@@ -9,5 +9,5 @@
     "java"
   ],
   "code": "if (${name:var} \u003d\u003d null) {\n\t${name} \u003d new ${type}(${arguments});\n\t${cursor}\n}\n\nreturn ${name};",
-  "context": "JAVA_STATEMENTS"
+  "location": "JAVA_STATEMENTS"
 }

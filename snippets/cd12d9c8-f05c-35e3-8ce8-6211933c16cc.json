@@ -13,5 +13,5 @@
     "concurrency"
   ],
   "code": "${display:var(org.eclipse.swt.widgets.Display)}.${kind:link(syncExec, asyncExec)}(new ${runnable:newType(java.lang.Runnable)}(){\n\tpublic void run(){\n\t\t${line_selection}${cursor}\n\t}\n});",
-  "context": "JAVA_STATEMENTS"
+  "location": "JAVA_STATEMENTS"
 }

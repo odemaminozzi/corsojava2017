@@ -9,5 +9,5 @@
     "javadoc"
   ],
   "code": "@author ${user}",
-  "context": "JAVADOC"
+  "location": "JAVADOC"
 }

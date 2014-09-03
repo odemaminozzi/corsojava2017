@@ -10,5 +10,5 @@
     "java"
   ],
   "code": "try {\n\t${line_selection}${cursor}\n} catch (${Exception} ${exception_variable_name}) {\n\t// ${todo}: handle exception\n}",
-  "context": "JAVA_STATEMENTS"
+  "location": "JAVA_STATEMENTS"
 }

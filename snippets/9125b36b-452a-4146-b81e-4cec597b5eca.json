@@ -9,5 +9,5 @@
     "ui"
   ],
   "code": "DirectoryDialog ${dialog:newName(org.eclipse.swt.widgets.DirectoryDialog)} \u003d new DirectoryDialog(${shell:var(org.eclipse.swt.widgets.Shell)});\n${dialog}.setText(${text:var(java.lang.String)});\n${dialog}.setMessage(${message:var(java.lang.String)});\nString ${directory:newName(java.lang.String)} \u003d ${dialog}.open();\n${:import(org.eclipse.swt.widgets.DirectoryDialog)}",
-  "context": "JAVA_STATEMENTS"
+  "location": "JAVA_STATEMENTS"
 }

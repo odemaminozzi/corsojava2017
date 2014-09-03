@@ -9,5 +9,5 @@
     "java"
   ],
   "code": "${array_type}[] ${result:newName(array)} \u003d new ${array_type}[${array}.length + 1];\nSystem.arraycopy(${array}, 0, ${result}, 0, ${array}.length);\n${result}[${array}.length]\u003d ${var};",
-  "context": "JAVA_STATEMENTS"
+  "location": "JAVA_STATEMENTS"
 }
