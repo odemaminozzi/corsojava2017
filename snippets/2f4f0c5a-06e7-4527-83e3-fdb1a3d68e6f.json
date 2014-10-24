@@ -14,13 +14,13 @@
   "location": "JAVA_STATEMENTS",
   "dependencies": [
     {
-      "groupId": "org.eclipse.equinox",
-      "artifactId": "org.eclipse.equinox.common",
+      "groupId": "jre",
+      "artifactId": "jre",
       "version": "0.0.0"
     },
     {
-      "groupId": "jre",
-      "artifactId": "jre",
+      "groupId": "org.eclipse.core",
+      "artifactId": "org.eclipse.core.runtime",
       "version": "0.0.0"
     }
   ]
