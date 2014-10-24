@@ -10,5 +10,12 @@
     "java"
   ],
   "code": "try {\n\t${line_selection}${cursor}\n} catch (${Exception} ${exception_variable_name}) {\n\t// ${todo}: handle exception\n}",
-  "location": "JAVA_STATEMENTS"
+  "location": "JAVA_STATEMENTS",
+  "dependencies": [
+    {
+      "groupId": "jre",
+      "artifactId": "jre",
+      "version": "0.0.0"
+    }
+  ]
 }

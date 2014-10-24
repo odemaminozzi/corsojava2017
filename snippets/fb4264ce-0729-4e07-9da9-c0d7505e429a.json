@@ -14,5 +14,12 @@
     "zip"
   ],
   "code": "${zipOutputStream:var(java.util.zip.ZipOutputStream)}.putNextEntry(${zipEntry:var(java.util.zip.ZipEntry)});\n${zipOutputStream}.write(${byteArray:var(\u0027byte[]\u0027)});",
-  "location": "JAVA_STATEMENTS"
+  "location": "JAVA_STATEMENTS",
+  "dependencies": [
+    {
+      "groupId": "jre",
+      "artifactId": "jre",
+      "version": "0.0.0"
+    }
+  ]
 }

@@ -11,5 +11,17 @@
     "eclipse"
   ],
   "code": "${monitor:var(org.eclipse.core.runtime.IProgressMonitor)} \u003d ${monitor} !\u003d null ? ${monitor} : new NullProgressMonitor();\n${monitor}.beginTask(\"${name}\", ${totalWork});\ntry {\n\t${line_selection}${cursor}\n} finally {\n\t${monitor}.done();\n}\n${:import(org.eclipse.core.runtime.NullProgressMonitor)}\n",
-  "location": "JAVA_STATEMENTS"
+  "location": "JAVA_STATEMENTS",
+  "dependencies": [
+    {
+      "groupId": "org.eclipse.equinox",
+      "artifactId": "org.eclipse.equinox.common",
+      "version": "0.0.0"
+    },
+    {
+      "groupId": "jre",
+      "artifactId": "jre",
+      "version": "0.0.0"
+    }
+  ]
 }

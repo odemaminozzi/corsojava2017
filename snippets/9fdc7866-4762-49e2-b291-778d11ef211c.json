@@ -7,5 +7,17 @@
     "logging"
   ],
   "code": "private static final ${loggerType:newType(org.slf4j.Logger)} ${logger:link(LOG,LOGGER)} \u003d ${loggerFactory:newType(org.slf4j.LoggerFactory)}.getLogger(${enclosing_type}.class);",
-  "location": "JAVA_TYPE_MEMBERS"
+  "location": "JAVA_TYPE_MEMBERS",
+  "dependencies": [
+    {
+      "groupId": "jre",
+      "artifactId": "jre",
+      "version": "0.0.0"
+    },
+    {
+      "groupId": "org.slf4j.api",
+      "artifactId": "org.slf4j.api",
+      "version": "0.0.0"
+    }
+  ]
 }

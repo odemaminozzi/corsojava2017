@@ -11,5 +11,12 @@
     "os"
   ],
   "code": "Runtime ${runtime:newName(java.lang.Runtime)} \u003d Runtime.getRuntime();\nProcess ${process:newName(java.lang.Process)} \u003d ${runtime}.exec(new String[] { ${cursor} });\n${process}.waitFor();\nint ${exitValue:newName(int)} \u003d ${process}.exitValue();",
-  "location": "JAVA_STATEMENTS"
+  "location": "JAVA_STATEMENTS",
+  "dependencies": [
+    {
+      "groupId": "jre",
+      "artifactId": "jre",
+      "version": "0.0.0"
+    }
+  ]
 }

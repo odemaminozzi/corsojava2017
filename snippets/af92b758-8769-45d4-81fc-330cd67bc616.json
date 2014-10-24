@@ -14,5 +14,17 @@
     "accessibility"
   ],
   "code": "Accessible ${accessible:newName(org.eclipse.swt.accessibility.Accessible)} \u003d ${control:var(org.eclipse.swt.widgets.Control)}.getAccessible();\n${accessible}.addAccessibleListener(${accessibleListener:var(org.eclipse.swt.accessibility.AccessibleListener)});\n${accessible}.addAccessibleControlListener(${accessibleControlListener:var(org.eclipse.swt.accessibility.AccessibleControlListener)});\n${:import(org.eclipse.swt.accessibility.Accessible)}",
-  "location": "JAVA_STATEMENTS"
+  "location": "JAVA_STATEMENTS",
+  "dependencies": [
+    {
+      "groupId": "org.eclipse.swt",
+      "artifactId": "org.eclipse.swt",
+      "version": "0.0.0"
+    },
+    {
+      "groupId": "jre",
+      "artifactId": "jre",
+      "version": "0.0.0"
+    }
+  ]
 }

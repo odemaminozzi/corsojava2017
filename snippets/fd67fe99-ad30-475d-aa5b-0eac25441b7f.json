@@ -12,5 +12,17 @@
     "swt"
   ],
   "code": "ElementListSelectionDialog ${dialog:newName(org.eclipse.ui.dialogs.ElementListSelectionDialog)} \u003d new ElementListSelectionDialog(${shell:var(org.eclipse.swt.widgets.Shell)}, ${lp:var(org.eclipse.jface.viewers.ILabelProvider)});\n${dialog}.setTitle(${title:var(java.lang.String)});\n${dialog}.setElements(${elements:var(\u0027java.lang.String[]\u0027)});\n${dialog}.open();\n${:import(org.eclipse.ui.dialogs.ElementListSelectionDialog)}",
-  "location": "JAVA_STATEMENTS"
+  "location": "JAVA_STATEMENTS",
+  "dependencies": [
+    {
+      "groupId": "org.eclipse.ui",
+      "artifactId": "org.eclipse.ui.workbench",
+      "version": "0.0.0"
+    },
+    {
+      "groupId": "jre",
+      "artifactId": "jre",
+      "version": "0.0.0"
+    }
+  ]
 }

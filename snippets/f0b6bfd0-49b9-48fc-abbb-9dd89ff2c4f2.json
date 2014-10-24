@@ -12,5 +12,17 @@
     "ui"
   ],
   "code": "${wizardPage:var(org.eclipse.jface.wizard.WizardPage)}.setErrorMessage(${message:var(java.lang.String)});\n${wizardPage}.setPageComplete(${complete:link(false, true)});\n",
-  "location": "JAVA_STATEMENTS"
+  "location": "JAVA_STATEMENTS",
+  "dependencies": [
+    {
+      "groupId": "org.eclipse.jface",
+      "artifactId": "org.eclipse.jface",
+      "version": "0.0.0"
+    },
+    {
+      "groupId": "jre",
+      "artifactId": "jre",
+      "version": "0.0.0"
+    }
+  ]
 }

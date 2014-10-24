@@ -9,5 +9,12 @@
     "jre"
   ],
   "code": "try {\n\tThread.sleep(${millis:var(int,long)});\n} catch (InterruptedException ${exception_variable_name}) {\n\t${cursor}\n}",
-  "location": "JAVA_STATEMENTS"
+  "location": "JAVA_STATEMENTS",
+  "dependencies": [
+    {
+      "groupId": "jre",
+      "artifactId": "jre",
+      "version": "0.0.0"
+    }
+  ]
 }

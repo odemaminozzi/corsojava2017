@@ -9,5 +9,12 @@
     "jre"
   ],
   "code": "${urlType:newType(java.net.URL)} ${url:newName(java.net.URL)} \u003d getClass().getClassLoader().getResource(${resourceName:var(String)})",
-  "location": "JAVA"
+  "location": "JAVA",
+  "dependencies": [
+    {
+      "groupId": "jre",
+      "artifactId": "jre",
+      "version": "0.0.0"
+    }
+  ]
 }

@@ -7,5 +7,12 @@
     "java"
   ],
   "code": "if (${name:var} instanceof ${type}) {\n\t${type} ${new_name} \u003d (${type})${name};\n\t${cursor}\n}",
-  "location": "JAVA_STATEMENTS"
+  "location": "JAVA_STATEMENTS",
+  "dependencies": [
+    {
+      "groupId": "jre",
+      "artifactId": "jre",
+      "version": "0.0.0"
+    }
+  ]
 }

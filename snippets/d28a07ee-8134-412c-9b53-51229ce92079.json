@@ -18,6 +18,11 @@
       "groupId": "org.eclipse.jface",
       "artifactId": "org.eclipse.jface",
       "version": "0.0.0"
+    },
+    {
+      "groupId": "jre",
+      "artifactId": "jre",
+      "version": "0.0.0"
     }
   ]
 }

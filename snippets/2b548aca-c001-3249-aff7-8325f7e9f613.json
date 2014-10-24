@@ -7,5 +7,12 @@
     "java"
   ],
   "code": "private static ${return_type} ${name}(${}) {\n\t${cursor}\n}",
-  "location": "JAVA_TYPE_MEMBERS"
+  "location": "JAVA_TYPE_MEMBERS",
+  "dependencies": [
+    {
+      "groupId": "jre",
+      "artifactId": "jre",
+      "version": "0.0.0"
+    }
+  ]
 }

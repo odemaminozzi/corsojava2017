@@ -9,5 +9,12 @@
     "java"
   ],
   "code": "for (int ${index} \u003d 0; ${index} \u003c ${array}.length; ${index}++) {\n\t${line_selection}${cursor}\n}",
-  "location": "JAVA_STATEMENTS"
+  "location": "JAVA_STATEMENTS",
+  "dependencies": [
+    {
+      "groupId": "jre",
+      "artifactId": "jre",
+      "version": "0.0.0"
+    }
+  ]
 }

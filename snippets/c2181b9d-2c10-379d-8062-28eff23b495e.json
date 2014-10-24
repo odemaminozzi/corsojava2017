@@ -7,5 +7,12 @@
     "java"
   ],
   "code": "for (${iterable_type} ${iterable_element} : ${iterable}) {\n\t${cursor}\n}",
-  "location": "JAVA_STATEMENTS"
+  "location": "JAVA_STATEMENTS",
+  "dependencies": [
+    {
+      "groupId": "jre",
+      "artifactId": "jre",
+      "version": "0.0.0"
+    }
+  ]
 }

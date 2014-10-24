@@ -14,5 +14,12 @@
     "java"
   ],
   "code": "${tokensType:newType(java.lang.String)}[] ${tokens:link(tokens,parts)} \u003d ${text:var(java.lang.String)}.split(\"\\\\s\");\nfor (${tokensType} ${token:link(token,part)} : ${tokens}) {\n\t${cursor}\n}",
-  "location": "JAVA_STATEMENTS"
+  "location": "JAVA_STATEMENTS",
+  "dependencies": [
+    {
+      "groupId": "jre",
+      "artifactId": "jre",
+      "version": "0.0.0"
+    }
+  ]
 }

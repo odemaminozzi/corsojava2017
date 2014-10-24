@@ -7,5 +7,12 @@
     "java"
   ],
   "code": "${type} ${name} \u003d new ${type}(${arguments});",
-  "location": "JAVA"
+  "location": "JAVA",
+  "dependencies": [
+    {
+      "groupId": "jre",
+      "artifactId": "jre",
+      "version": "0.0.0"
+    }
+  ]
 }

@@ -7,5 +7,12 @@
     "security"
   ],
   "code": "${securityManagerType:newType(java.lang.SecurityManager)} ${securityManager:newName(java.lang.SecurityManager)} \u003d System.getSecurityManager();\nif (${securityManager} !\u003d null) {\n\t${securityManager}.check${cursor}\n}",
-  "location": "JAVA_STATEMENTS"
+  "location": "JAVA_STATEMENTS",
+  "dependencies": [
+    {
+      "groupId": "jre",
+      "artifactId": "jre",
+      "version": "0.0.0"
+    }
+  ]
 }

@@ -11,5 +11,17 @@
     "ui"
   ],
   "code": "DragSource ${source:newName(org.eclipse.swt.dnd.DragSource)} \u003d new DragSource(${control:var(org.eclipse.swt.widgets.Control)}, ${modes:link(\u0027DND.DROP_COPY\u0027, \u0027DND.DROP_MOVE\u0027, \u0027DND.DROP_LINK\u0027, \u0027DND.DROP_NONE\u0027)});\n${source}.setTransfer(${transferArray:var(\u0027org.eclipse.swt.dnd.Transfer[]\u0027)});\n${source}.addDragListener(${dragSourceListener:var(org.eclipse.swt.dnd.DragSourceListener)});\n${:import(org.eclipse.swt.dnd.DragSource, org.eclipse.swt.dnd.DND)}",
-  "location": "JAVA_STATEMENTS"
+  "location": "JAVA_STATEMENTS",
+  "dependencies": [
+    {
+      "groupId": "org.eclipse.swt",
+      "artifactId": "org.eclipse.swt",
+      "version": "0.0.0"
+    },
+    {
+      "groupId": "jre",
+      "artifactId": "jre",
+      "version": "0.0.0"
+    }
+  ]
 }

@@ -11,5 +11,12 @@
     "jre"
   ],
   "code": " ${lock:var(java.util.concurrent.locks.Lock)}.lock();\ntry{\n\t${cursor}\n} finally {\n\t${lock:var(java.util.concurrent.locks.Lock)}.unlock();\n}\n",
-  "location": "JAVA_STATEMENTS"
+  "location": "JAVA_STATEMENTS",
+  "dependencies": [
+    {
+      "groupId": "jre",
+      "artifactId": "jre",
+      "version": "0.0.0"
+    }
+  ]
 }

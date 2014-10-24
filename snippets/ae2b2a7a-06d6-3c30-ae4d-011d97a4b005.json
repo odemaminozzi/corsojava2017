@@ -7,5 +7,12 @@
     "java"
   ],
   "code": "public static void main(String[] args) {\n\t${cursor}\n}",
-  "location": "JAVA_TYPE_MEMBERS"
+  "location": "JAVA_TYPE_MEMBERS",
+  "dependencies": [
+    {
+      "groupId": "jre",
+      "artifactId": "jre",
+      "version": "0.0.0"
+    }
+  ]
 }

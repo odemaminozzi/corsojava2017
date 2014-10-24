@@ -7,5 +7,12 @@
     "java"
   ],
   "code": "System.out.println(\"${enclosing_type}.${enclosing_method}()\");",
-  "location": "JAVA_STATEMENTS"
+  "location": "JAVA_STATEMENTS",
+  "dependencies": [
+    {
+      "groupId": "jre",
+      "artifactId": "jre",
+      "version": "0.0.0"
+    }
+  ]
 }

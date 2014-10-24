@@ -15,5 +15,17 @@
     "swt"
   ],
   "code": "boolean ${result} \u003d MessageDialog.${kind:link(openConfirm, openQuestion)}(${shell:var(org.eclipse.swt.widgets.Shell)}, ${title:var(java.lang.String)}, ${question:var(java.lang.String)});\n${:import(org.eclipse.jface.dialogs.MessageDialog)}",
-  "location": "JAVA_STATEMENTS"
+  "location": "JAVA_STATEMENTS",
+  "dependencies": [
+    {
+      "groupId": "org.eclipse.jface",
+      "artifactId": "org.eclipse.jface",
+      "version": "0.0.0"
+    },
+    {
+      "groupId": "jre",
+      "artifactId": "jre",
+      "version": "0.0.0"
+    }
+  ]
 }

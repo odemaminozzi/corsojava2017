@@ -13,6 +13,11 @@
       "groupId": "junit",
       "artifactId": "junit",
       "version": "0.0.0"
+    },
+    {
+      "groupId": "jre",
+      "artifactId": "jre",
+      "version": "0.0.0"
     }
   ]
 }

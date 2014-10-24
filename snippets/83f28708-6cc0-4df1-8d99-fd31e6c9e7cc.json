@@ -9,5 +9,12 @@
     "io"
   ],
   "code": "${lineType:newType(java.lang.String)} ${line};\nwhile (( ${line} \u003d ${reader:var(java.io.BufferedReader)}.readLine()) !\u003d null) {\n\t${cursor}\n}",
-  "location": "JAVA_STATEMENTS"
+  "location": "JAVA_STATEMENTS",
+  "dependencies": [
+    {
+      "groupId": "jre",
+      "artifactId": "jre",
+      "version": "0.0.0"
+    }
+  ]
 }

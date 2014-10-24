@@ -9,5 +9,12 @@
     "java"
   ],
   "code": "new Runnable() {\n\tpublic void run() {\n\t\t${line_selection}\n\t}\n}",
-  "location": "JAVA"
+  "location": "JAVA",
+  "dependencies": [
+    {
+      "groupId": "jre",
+      "artifactId": "jre",
+      "version": "0.0.0"
+    }
+  ]
 }
