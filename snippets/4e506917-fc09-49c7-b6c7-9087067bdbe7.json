@@ -4,7 +4,7 @@
   "description": "Disable Eclipse code formatter for the selected lines",
   "extraSearchTerms": [],
   "tags": [],
-  "code": "// @formatter:on\n${line_selection}${cursor}\n// @formatter:off\n",
+  "code": "// @formatter:off\n${line_selection}${cursor}\n// @formatter:on\n",
   "location": "JAVA",
   "dependencies": []
 }
