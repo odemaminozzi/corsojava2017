@@ -11,5 +11,6 @@
     "comment"
   ],
   "code": "//$$NON-NLS-${N}$$",
-  "location": "JAVA"
+  "location": "FILE",
+  "dependencies": []
 }
